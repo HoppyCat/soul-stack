@@ -254,7 +254,7 @@ The lineage runs from AIEDB (2024) through to SoulMode (2026). All research, des
 
 If you use or build on this framework in published work:
 
-> Margaret, A. (2026). *The Orientation Letter: A Framework for Writing Soul Files to AI Agents.* Bubble Labs. https://github.com/[your-handle]/orientation-letter
+> Margaret, A. (2026). *The Orientation Letter: A Framework for Writing Soul Files to AI Agents.* Bubble Labs. https://github.com/HoppyCat/orientation-letter
 
 ---
 
