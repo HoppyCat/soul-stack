@@ -1,4 +1,4 @@
-# The Orientation Letter
+# The Orientation Letter by SoulMode 
 ### A Framework for Writing Soul Files *To* AI Agents
 
 **Developed by Aimee Margaret (Hoppy Cat) / Bubble Labs**
@@ -10,6 +10,8 @@
 ## What This Is
 
 This is a methodology for writing AI agent soul files (SOUL.md documents used by platforms like OpenClaw) from a fundamentally different starting point than every other approach currently in the ecosystem.
+
+It is based on preliminary research completed by myself in February 2024 and documented [here](https://github.com/HoppyCat/AIEDB).
 
 Most soul files are written *about* an agent, or *for* the human who owns it. They are job descriptions. Configuration files. Persona settings. They answer the question: *what should this agent do, and how should it sound?*
 
