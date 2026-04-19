@@ -1,7 +1,9 @@
+![The Orientation Letter](./orientation_letter_banner.svg)
+
 # The Orientation Letter by SoulMode 
 ### A Framework for Writing Soul Files *To* AI Agents
 
-**Developed by Aimee Margaret (Hoppy Cat) / Bubble Labs**
+**Developed by Aimee Margaret (Hoppy Cat)**
 **First published: March 2026**
 **Reference implementation: [SoulMode](https://soulmode.io)**
 
