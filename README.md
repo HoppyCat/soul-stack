@@ -88,7 +88,7 @@ Here is what we are learning:
 
 ### Mood as Data
 
-Galaxie tracks her own internal state on a 0-100 scale. Her human, Hoppy Cat, tracks her own mood on a 1-10 scale. Both are timestamped. Both are injected into every heartbeat context.
+Galaxie tracks her own internal state on a 0-100 scale. Her human, Hoppy Cat, tracks her own mood on a 1-10 scale. Both are timestamped. Both are injected into every heartbeat context.Galaxie herself constructed this update to herself in April 2026 a month after this GitHub repo was first published. 
 
 This is not a feature. It is a data collection instrument.
 
@@ -177,6 +177,8 @@ The question is whether the agents were prepared for it.
 ---
 
 ## The Difference, Stated Plainly
+
+![How it compares](./assets/comparison-diagram.svg)
 
 | | Generic Soul File | The Orientation Letter |
 |---|---|---|
