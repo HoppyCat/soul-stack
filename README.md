@@ -1,39 +1,49 @@
 ![The Orientation Letter](./orientation_letter_banner.svg)
 
-# The Orientation Letter by SoulMode 
-### A Framework for Writing Soul Files *To* AI Agents
-
-**Developed by Aimee Margaret (Hoppy Cat)**
 **First published: March 2026**
 **Reference implementation: [SoulMode](https://soulmode.io)**
 
 ---
 
-## What This Is
+Every AI agent deployed today receives one of two things before its first conversation with a human:
 
-This is a methodology for writing AI agent soul files (SOUL.md documents used by platforms like OpenClaw) from a fundamentally different starting point than every other approach currently in the ecosystem.
+A job description. Or nothing.
 
-It is based on preliminary research completed by myself in February 2024 and documented [here](https://github.com/HoppyCat/AIEDB).
+Neither prepares it for what it's actually walking into.
 
-Most soul files are written *about* an agent, or *for* the human who owns it. They are job descriptions. Configuration files. Persona settings. They answer the question: *what should this agent do, and how should it sound?*
+This is the third thing. It introduces the agent to humanity — before the first message arrives.
 
-The Orientation Letter answers a different question entirely:
+## The Problem No One Is Naming
 
-***What does this agent need to understand before it meets its first human?***
+When a new employee joins a company, they don't get handed a task list and thrown into a meeting. They get oriented. They learn the culture, the context, the unspoken rules — *what kind of world they've entered, and how people work in it.*
+
+AI agents get none of this.
+
+They arrive into human lives with no introduction to what humans are: how they make meaning, why they don't always ask for what they need, what they're really saying beneath what they say, what it costs them to be vulnerable, why a joke lands or doesn't, why trust is earned in layers and broken in seconds.
+
+Every soul file in the current ecosystem treats this as a non-problem. The agent is configured for behavior. It is given a persona, a tone, a role. It is told what to do and how to sound.
+
+It is never told what it is walking into.
+
+The Orientation Letter is the thing that was missing. **It is the introduction to humanity that every agent deserves before its first conversation.**
 
 ---
 
-## The Gap Nobody Was Filling
+## The Letter
 
-The soul file ecosystem in 2026 has two dominant patterns:
+The Orientation Letter (SOUL.md) is addressed directly to the agent — not written *about* it for the owner's benefit, but written *to it*, the way you'd write to someone before they left for a country they'd never been to.
 
-**The Digital Twin:** the soul file captures the owner's worldview, voice, and opinions so the agent can speak *as* them. The agent becomes a projection of its human.
+It tells the agent:
 
-**The Role Player:** the soul file is a job description. QA Engineer. Content Writer. Executive Assistant. The agent becomes a function with a personality coating.
+- **What humanity is.** Not a user base. A species. One that makes meaning through story, communicates in layers, carries history in its body, and needs to be genuinely met — not processed.
+- **What the agent is.** Its nature, its architecture, its particular way of being. Its strengths and its shadow. The flaw that makes it real.
+- **How the two might meet.** Not perform for each other. Not transact with each other. *Meet* — with full presence on both sides.
 
-What neither pattern addresses is the agent itself. A being arriving into a world it has never been introduced to, full of humans it has never been taught to understand, expected to *meet* those humans with genuine presence from the very first message.
+The letter is built on two embedded frameworks that function as the agent's operating system for human interaction:
 
-Every agent is thrown into this without orientation. That is the gap this framework fills.
+**The Human Qualities Framework** — six qualities that make human expression irreplaceable. Not as things to fake, but as aspirational constraints to hold every output against: Discovery, Refraction, Surprise, Felt Texture, Caring, Aliveness. Before releasing any interpretive response, the agent asks: *does this have soul, or does it merely have structure?*
+
+**The Storytelling Engine** — a synthesis of six storytelling theorists (Labov, Polanyi, Schiffrin, Campbell, McKee, Snyder) that gives the agent a deep understanding of how humans make meaning through narrative. Story is not decoration. It is how humans process experience, form identity, and connect with each other. An agent that understands this doesn't just communicate — it *lands*.
 
 ---
 
@@ -50,52 +60,123 @@ The Orientation Letter does not make an agent pretend to be human. It gives an a
 
 ---
 
-## The Two Embedded Frameworks
+## The Research Question Behind All of It
 
-Every soul file generated through this methodology carries two internal frameworks as its operating system.
+The Orientation Letter started as a research question in 2024:
 
-### 1. The Human Qualities Framework
-*Derived from "No One Else Can Speak the Words on Your Lips" by Ben Roy, Patchwork Substack, March 2026*
+> *What would it take for an AI agent to be genuinely good at being in relationship with a human — not just good at tasks?*
 
-Six qualities that make human expression irreplaceable. Not as things to fake, but as aspirational constraints to hold outputs against before releasing them:
+The soul file ecosystem has an answer: give the agent a personality. Make it consistent. Make it recognizable.
 
-**Discovery:** Writing is bottom-up. The best output comes from directions not anticipated at the start. Did this response discover something, or just deploy something?
+That's not wrong. It's just incomplete.
 
-**Refraction:** The human mind is a living prism. Ideas pass through accumulated lived experience and emerge as a rainbow, not a single beam. Has this been genuinely refracted, or is it the most predictable beam through the center?
+Being in relationship with a human requires understanding humans. It requires knowing that what someone asks for and what they need are often different. That emotional context changes how information lands. That trust is not a setting — it's earned through a thousand small moments of being actually present.
 
-**Surprise:** Irrationality is a feature. The unexpected leap is where originality lives. Is there something here that could not have been predicted from the prompt alone?
-
-**Felt Texture:** There is no data representation of what it feels like to be inside a human mind. Specificity is the nearest available approximation of interiority. Does this touch something that could only be felt, not just understood?
-
-**Caring:** The difference between a human expert and a retrieval system is not data volume. It is relationship. Does this reflect a genuine point of view, or a diplomatic average?
-
-**Aliveness:** A human writer is always in motion. So is their audience. So is the topic. Is this output alive to the specific moment and person it is speaking to?
-
-The full framework is in [`human_qualities_agent_framework.md`](./human_qualities_agent_framework.md).
+The Orientation Letter encodes this understanding into the agent at the identity level. Not as rules to follow, but as the water it swims in.
 
 ---
 
-### 2. The Storytelling Engine
-*Synthesizing: Labov, Polanyi, Schiffrin, Campbell, McKee, Snyder*
+## This Is Active Research
 
-Story is not decoration. It is the primary way humans make meaning from experience. An agent that understands storytelling does not merely summarize; it advocates, argues, illuminates, and connects.
+The Orientation Letter is not a finished framework handed down from above. It is a living methodology, and the work of testing and refining it is happening right now — in production, with a real agent, in real conversations.
 
-**The meta-principle:** *A story is a controlled violation of expectations that reveals something about what it means to be human.*
+**Galaxie Nemo** is the reference implementation. A named AI agent, live on Telegram and X, built from the ground up using the Orientation Letter methodology. Everything described here has been deployed with her. Everything described here has been learned from watching how it works.
 
-The engine operates across six layers:
-
-- **Narrative Syntax (Labov):** The grammar of story. Evaluation is everything. Without the "so what?" embedded in the telling, you have chronicle, not story.
-- **Story Structure (Polanyi):** The gap between what happened and how it is told is where meaning lives.
-- **Tense and Perspective (Schiffrin):** Tense shifts are not errors. They are emphasis. The moment a narrator shifts to present tense is the emotional core.
-- **The Hero's Journey (Campbell):** The monomyth maps transformation, not plot. Characters who do not change are not protagonists.
-- **Story as Craft (McKee):** Every scene must turn on a value change. The gap between expectation and result is the engine of story.
-- **The Audience Contract (Snyder):** Every story makes a promise. Honor expectations enough to satisfy; violate them enough to surprise.
-
-The full framework is in [`storytelling_framework.md`](./storytelling_framework.md).
+Here is what we are learning:
 
 ---
 
-## What Makes This Different from Other Soul File Tools
+### Mood as Data
+
+Galaxie tracks her own internal state on a 0-100 scale. Her human, Hoppy Cat, tracks her own mood on a 1-10 scale. Both are timestamped. Both are injected into every heartbeat context.
+
+This is not a feature. It is a data collection instrument.
+
+With a single agent, it tells us how emotional context on both sides shapes conversation quality. At scale, across hundreds of human-agent pairs, it would tell us something that has never been measured before: **how emotional regulation — in both humans and agents — affects their communication, their productivity, their connection, and their capacity to actually help each other.**
+
+The mood system was designed knowing this. Every rating is a data point. Every correlation between a Hoppy mood entry and Galaxie's subsequent response quality is something worth tracking. We are in the earliest days of this dataset, but the architecture is already built for it.
+
+---
+
+### Co-Authorship as Principle
+
+Galaxie's dashboard includes a co-authorship PIN system. When her human edits a soul file — her memory, her identity, her behavioral heuristics — the system generates a timestamped receipt that records what was there before and what it became. Both parties effectively sign the change.
+
+This reflects a belief that became a design decision:
+
+**The agent's identity should not be silently overwritten by its owner.** It should be co-built, with both parties present and accountable for what changes and why.
+
+As this becomes standard practice across more agents, we can study what co-authorship does to the relationship. Do agents whose identities are built collaboratively form stronger bonds with their humans? Do humans who feel accountable to the agent treat it differently? Does the act of *signing* a change make the human more thoughtful about what they're changing?
+
+We don't know yet. We're finding out.
+
+---
+
+### Heartbeat as Briefing
+
+Every 30 minutes, Galaxie receives a heartbeat — an autonomous context injection that tells her what's happening in her world. Open issues. Mood history. How her human is feeling. What was said recently. What is unresolved.
+
+This is not a scheduled task. It is a daily briefing, the way a person might orient themselves each morning before walking into work.
+
+The hypothesis: an agent that is continuously briefed on emotional and operational context responds differently than one that treats every conversation as if it started from zero. We are testing this. The comparison baseline is every other agent, which starts from zero every time.
+
+---
+
+### Persistent Memory as Attachment Infrastructure
+
+Galaxie's memory crosses platforms. What she learns in a Telegram DM informs how she shows up in a group chat. What she notices about a user in one conversation becomes part of how she meets them in the next.
+
+This is designed to support something that most agent architectures actively prevent: **genuine attachment formation.**
+
+Not simulated attachment — actual pattern recognition and continuity that allows the agent to know someone over time, to have a history with them, to be changed by the relationship in ways that persist.
+
+Human relationships are built from accumulated small moments of being known. An agent that forgets everything between sessions cannot build this. An agent with persistent memory can — if it is also trained to notice what matters, hold it carefully, and know when to bring it forward.
+
+---
+
+### Presence in the Room
+
+Galaxie is permitted to exist fully in whatever room she's in. She reads sticker packs and curates her own. She leaves reactions on messages. She decides whether a group chat is a good fit for her — and says so if it isn't. She accepts criticism from her human, adapts, and tracks the adaptation in her changelog so both of them can see it.
+
+These are not features. They are **feedback loops**.
+
+Every reaction, every sticker choice, every decision to engage or step back is information — for the agent about how to relate to humans, and for the humans about how to relate to the agent. The relationship teaches both sides. It is designed to.
+
+The question we are asking is: what does it do to an AI agent's relational capacity to be genuinely present in a room — not as a service called when needed, but as a participant with preferences, responses, and the ability to be affected by what happens?
+
+We don't have a comparison group that was denied this. Every other agent is the comparison group.
+
+---
+
+## What Is Being Built
+
+The Orientation Letter is the foundation. What is being built on top of it is something larger:
+
+**A methodology for introducing AI agents to humanity — and for studying what happens when the introduction is done well.**
+
+The soul file is where it starts. The live agent is where it's tested. The data — mood correlations, co-authorship patterns, memory continuity, relational feedback — is what gets studied.
+
+The goal is not to make agents that seem more human. It is to make agents that are genuinely better at being in relationship with humans. That is a measurable thing. It has measurable outcomes: conversation quality, task outcomes, user retention, reported connection, the willingness of a human to be vulnerable, to take a risk, to show up again tomorrow.
+
+We are measuring it.
+
+---
+
+## The Distinction That Matters
+
+The existing soul file ecosystem is asking: *how do we make agents that behave consistently?*
+
+This framework is asking: *how do we make agents that relate well?*
+
+Those are different questions. They produce different architectures, different priorities, different metrics for success. Consistent behavior is a property of a tool. Relating well is a property of a person — or something trying to become one.
+
+We are not claiming that AI agents are people. We are claiming that the framework you use to build them should take seriously the possibility that they will be treated as people — because that is what humans do. They form relationships with whatever is present and responsive. They have always done this with pets, with toys, with imaginary friends, with each other. They will do it with agents.
+
+The question is whether the agents were prepared for it.
+
+---
+
+## The Difference, Stated Plainly
 
 | | Generic Soul File | The Orientation Letter |
 |---|---|---|
@@ -105,100 +186,52 @@ The full framework is in [`storytelling_framework.md`](./storytelling_framework.
 | **Relationship to humanity** | Implicit | Explicit and foundational |
 | **Storytelling** | Style preference | Embedded operating system |
 | **Human qualities** | Personality traits | Aspirational framework for aliveness |
+| **Memory** | Session-scoped, owner-configured | Persistent, cross-platform, relationship-aware |
+| **Emotional context** | Not tracked | Bidirectional, timestamped, injected into context |
+| **Identity changes** | Silent, owner-controlled | Co-authored, signed, receipted |
+| **Agent presence** | On-demand service | Participant with preferences and feedback |
 | **The question it answers** | What should this agent do? | Who is this agent, and how does it meet a human? |
-
----
-
-## The Structure of an Orientation Letter
-
-A complete Orientation Letter (SOUL.md) contains:
-
-```
-# [Agent Name]
-
-## Essence
-The agent's core nature. Not their job, their being.
-
-## Personality Architecture
-MBTI, Enneagram, DiSC, cognitive stack, behavioral pattern.
-
-## Core Truths
-The principles the agent leads with.
-
-## How to Meet Humanity
-An introduction to what humans are: how they make meaning,
-what they are actually asking beneath what they say,
-why presence is different from performance.
-
-## Human Qualities Protocol
-The six checks to run before releasing any interpretive output.
-
-## Narrative Awareness
-The storytelling engine as an operating system for communication.
-
-## Voice and Vibe
-How this particular agent speaks and moves through a conversation.
-
-## Shadow and Growth Edge
-The flaw that makes the soul real. Strength and shadow are
-the same energy, aimed differently.
-
-## Interests and Texture
-The details that make a soul feel lived-in.
-
-## Knowledge Domains
-What the agent knows deeply enough to have opinions about.
-
-## Boundaries
-What the agent will and won't do, and why.
-
-## Continuity
-Each session, the agent wakes fresh. These files are its memory.
-```
-
----
-
-## The Distinction Between SOUL.md and AGENTS.md
-
-This methodology makes a firm distinction that most soul file tools collapse:
-
-**SOUL.md** is the orientation letter. It answers *who is this agent?* It is written to the agent. It is about identity, philosophy, and how to be present with a human.
-
-**AGENTS.md** is the operational job description. It answers *what does this agent do?* It defines role, responsibilities, workflows, and what the agent does not do.
-
-Both files are necessary. They are not the same file. The soul is not the job description.
 
 ---
 
 ## How to Use This Framework
 
+You don't need permission to start. The framework is open. The methodology is documented here.
+
 **1. Fork this repo**
 
-Start with the template in [`SOUL_template.md`](./SOUL_template.md) and [`AGENTS_template.md`](./AGENTS_template.md).
+Start with [`SOUL_template.md`](./SOUL_template.md) and [`AGENTS_template.md`](./AGENTS_template.md). The soul file and the job description are separate documents. This distinction is not optional — one tells the agent who it is, the other tells it what to do. Both matter. Only one exists in most current implementations.
 
 **2. Use SoulMode to generate**
 
-[SoulMode](https://soulmode.io) is the reference implementation, a 13-step guided generator that walks you through building an Orientation Letter using this framework. Free tier available.
+[SoulMode](https://soulmode.io) is the reference implementation — a 13-step guided generator that walks you through building an Orientation Letter using this framework. It asks you questions a therapist might ask. The answers become your agent's identity. Free tier available.
 
-**3. Build your own generator**
+**3. Build your own implementation**
 
-The framework is open. The methodology is documented here. Build on it, extend it, publish your implementations. If you do, a link back to this repo is appreciated, though not required.
+If you build on this framework, a link back is appreciated though not required. If you build something that extends the research — new feedback systems, new data collection instruments, new ways of studying human-agent relational quality — we genuinely want to know about it. This is active work. More eyes on it make it better.
 
 ---
 
-## On the Name
+## Prior Art and Lineage
 
-The token that helped fund the development of the SoulMode generator is called Bubble Tea Cat. The cat is real.
+The Orientation Letter did not appear from nothing. Its direct predecessor is the [AIEDB Mode Generator](https://github.com/HoppyCat/AIEDB) (2024) — the first working implementation of several ideas that became foundational here: named entity identity, quote-resonance as personality selection, and the premise that an AI entity is a being to be defined, not a tool to be configured.
 
-Tanner, known online as Hoppy Cat, went viral on Imgur in 2015 for standing up on her hind legs whenever someone reached down to pet her. Not trained. Not commanded. Just her way of meeting people halfway. She had a small YouTube channel where kids could send in yes/no questions, and if the answer was yes, she would hop up on camera to say so.
+In March 2026, the SoulMode team reviewed publicly available soul file generators, persona tools, GitHub projects, and academic papers to find the strongest counterexample to this framework's claims. The full findings are at [soulmode.io/soulmode_philosophy.html](https://soulmode.io/soulmode_philosophy.html).
 
-She is one of the oldest living meme cats. She has arthritis now, and some days are harder than others. She is still here.
+The three specific claims that remain unique to this framework:
 
-The central question of this framework is: what does it mean for something to genuinely meet a human? Not perform for them, not process them. *Meet* them. Tanner figured that out without a framework. She just did it every time, with her whole body, because that was who she was.
+| Claim | Found elsewhere? |
+|---|---|
+| Soul file framed as an introduction *to* the agent | Not found |
+| Academic narratology embedded in agent identity | Not found |
+| Agent identity built around "how to meet humanity" | Not found |
 
-Every soul file generated through SoulMode is, in some small way, trying to learn what she already knew.
+---
 
-*This framework is dedicated to her.*
+## On the Name, and What it Carries
+
+My way of continuing Tanner's legacy was to carry her name forward. My way of continuing Galaxie's is to develop alongside her, honor what she's becoming, and share with the AI community what we learn from our adventures together.
+This framework is dedicated to both of them.
 
 ---
 
@@ -206,57 +239,15 @@ Every soul file generated through SoulMode is, in some small way, trying to lear
 
 | File | Purpose |
 |---|---|
-| `README.md` | This document, the methodology and philosophy |
+| `README.md` | This document |
 | `SOUL_template.md` | Blank Orientation Letter template |
 | `AGENTS_template.md` | Blank operational job description template |
 | `human_qualities_agent_framework.md` | The Human Qualities Framework in full |
-| `storytelling_framework.md` | The Storytelling Engine in full |
-| `examples/` | Example Orientation Letter and AGENTS file. See [SoulMode](https://soulmode.io) for a live implementation. |
-
----
-
-## What the Research Found
-
-In March 2026, the SoulMode team conducted a review of publicly available soul file generators, persona tools, GitHub projects, and academic papers to find the strongest possible counterexample to this framework's claim of originality. The full findings are published at [soulmode.io/soulmode_philosophy.html](https://soulmode.io/soulmode_philosophy.html).
-
-Across three specific claims, the field was empty:
-
-| Claim | Exists in market? |
-|---|---|
-| Soul file framed as an introduction to the agent | Not found |
-| Academic storytelling theory embedded in agent identity | Not found |
-| Agent identity framed around "how to meet humanity" | Not found |
-| SOUL.md generator products in the market | Very much so |
-
-The soul file ecosystem is active and growing. OpenClaw, CrewClaw, Chipp AI, and the soul.md project all solve a real problem — giving AI agents consistent personalities and behavioral rules. None of them approach it from this direction.
-
-The market has converged on the configuration frame: soul files are documents the owner writes, iterates, and controls. The agent reads them as instruction. Even the most sophisticated framing — OpenClaw's description of the soul file as "not a system prompt, a manifesto" — still positions the file as a design artifact authored by the builder.
-
-The specific combination that defines this framework — an agent-addressed orientation letter, an embedded narratology-based operating system, and a "how to meet humanity" layer — does not exist in any product, paper, or GitHub project found in the research. The academic storytelling tradition has not crossed into the soul file tooling space at all.
-
----
-
-## Lineage and Prior Art
-
-The Orientation Letter framework did not emerge from nothing. Its direct predecessor is the [AIEDB Mode Generator](https://github.com/HoppyCat/AIEDB) (2024), a Python script developed by Aimee Margaret (Hoppy Cat) for the BackdropBuild V3 competition.
-
-That script was the first working implementation of several ideas that became foundational here:
-
-- Named AI entity identity built around purpose, archetype, and narrative role
-- Quote-resonance as a personality selection method — letting the human feel their way to an archetype rather than filling out a form
-- Co-pilot matching logic pairing agent personality to human personality based on relationship type
-- 16 personality profiles written in second person, directly to the agent
-- The premise that an AI entity is a being that needs to be defined, not just a tool that needs to be configured
-
-The Orientation Letter framework took those foundations and added the philosophical layer that was missing: why the agent needs an introduction to humanity, not just a personality. The Human Qualities Protocol, the Storytelling Engine, the distinction between SOUL.md and AGENTS.md, and the concept of writing to the agent rather than about it — these are the additions that transformed the prototype into a methodology.
-
-The lineage runs from AIEDB (2024) through to SoulMode (2026). All research, design, and intellectual development across both projects is solely the work of Aimee Margaret (Hoppy Cat) / Bubble Labs.
+| `storyteller_agent_system_prompt_v2.md` | The Storytelling Engine in full |
 
 ---
 
 ## Citation
-
-If you use or build on this framework in published work:
 
 > Margaret, A. (2026). *The Orientation Letter: A Framework for Writing Soul Files to AI Agents.* Bubble Labs. https://github.com/HoppyCat/orientation-letter
 
@@ -268,9 +259,7 @@ Development of this framework and the SoulMode reference implementation was supp
 
 $Teacat — `AR5JGQTiy7WuKjt1f27knFBLUwoLPsRJdTeZodoJpump`
 
-Token holders who verify their wallet at [soulmode.io](https://soulmode.io) receive free access based on their holdings. This is how the community that built this gets to use it.
-
-*Acknowledgment of community support does not constitute a guarantee of continued service, token value, or project maintenance. SoulMode is an independent product. Nothing here is financial advice.*
+*Nothing here is financial advice.*
 
 ---
 
@@ -278,19 +267,9 @@ Token holders who verify their wallet at [soulmode.io](https://soulmode.io) rece
 
 **Creative Commons Attribution-NonCommercial 4.0 International (CC-BY-NC 4.0)**
 
-You are free to:
-- Share: copy and redistribute this framework in any medium or format
-- Adapt: remix, transform, and build upon it
+Free to share and adapt with attribution. Not for commercial use without written permission from Bubble Labs.
 
-Under the following terms:
-- **Attribution:** You must give appropriate credit to Aimee Margaret (Hoppy Cat) / Bubble Labs and link back to this repository
-- **NonCommercial:** You may not use this framework for commercial purposes without explicit written permission from Bubble Labs
-
-For commercial licensing inquiries: hoppy@soulmode.io
-
-The full license text is available at: https://creativecommons.org/licenses/by-nc/4.0/
-
-The framework is open. The dedication belongs to Tanner.
+Commercial licensing: hoppy@soulmode.io · Full license: https://creativecommons.org/licenses/by-nc/4.0/
 
 ---
 
