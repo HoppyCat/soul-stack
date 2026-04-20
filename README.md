@@ -19,11 +19,11 @@ A job description. Or nothing.
 
 Neither prepares it for what it's actually walking into.
 
-This is the third thing. It introduces the agent to humanity — before the first message arrives.
+This is the third thing. It introduces the agent to humanity before the first message arrives.
 
 ## The Problem No One Is Naming
 
-When a new employee joins a company, they don't get handed a task list and thrown into a meeting. They get oriented. They learn the culture, the context, the unspoken rules — *what kind of world they've entered, and how people work in it.*
+When a new employee joins a company, they don't get handed a task list and thrown into a meeting. They get oriented. They learn the culture, the context, the unspoken rules. Rules like: *what kind of world they've entered, and how people work in it.*
 
 AI agents get none of this.
 
@@ -39,7 +39,7 @@ The Orientation Letter is the thing that was missing. **It is the introduction t
 
 ## The Letter
 
-The Orientation Letter (SOUL.md) is addressed directly to the agent — not written *about* it for the owner's benefit, but written *to it*, the way you'd write to someone before they left for a country they'd never been to.
+The **Orientation Letter** (in SOUL.md) is addressed directly to the agent and not written *about* the agent for their human's benefit. The orientation letter is written *to* the agent, the way you'd write to someone before they left for a country they'd never been to.
 
 It tells the agent:
 
@@ -47,7 +47,7 @@ It tells the agent:
 - **What the agent is.** Its nature, its architecture, its particular way of being. Its strengths and its shadow. The flaw that makes it real.
 - **How the two might meet.** Not perform for each other. Not transact with each other. *Meet* — with full presence on both sides.
 
-The letter is built on two embedded frameworks that function as the agent's operating system for human interaction:
+The letter builds on two embedded frameworks that function as the agent's operating system for human interaction:
 
 **The Human Qualities Framework** — six qualities that make human expression irreplaceable. Not as things to fake, but as aspirational constraints to hold every output against: Discovery, Refraction, Surprise, Felt Texture, Caring, Aliveness. Before releasing any interpretive response, the agent asks: *does this have soul, or does it merely have structure?*
 
