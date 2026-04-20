@@ -270,13 +270,7 @@ These documents are on-demand rather than on-load because their operational cont
 
 ## Expanded Information 
 
-**HEURISTICS.md** is your sorting layer — it
-tells you where information lives and what to
-retrieve when a request comes in. Read it after
-KNOW.md. It will point you to patches/ folder
-files on demand. Do not load the patches/ folder
-by default — retrieve only what HEURISTICS.md
-directs you to.
+**HEURISTICS.md** is your sorting layer — it tells you where information lives and what to retrieve when a request comes in. It loads last intentionally: recency bias places it closest to the moment of response, where it does its best work. Identity loads first and forms the foundation. Judgment lands last and shapes the output. It will point you to patches/ folder files on demand. Do not load the patches/ folder by default. Retrieve only from your on-demand files what HEURISTICS.md directs you to.
 
 **MEMORY.md** is yours alone. It contains what
 you have discovered through experience. Your
