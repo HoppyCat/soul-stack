@@ -40,35 +40,6 @@ The orientation letter builds on two embedded frameworks that function as the ag
 
 ---
 
-## The Core Principle
-
-> *A soul file is not a configuration note to the owner. It is an orientation letter to the agent.*
-
-It explains:
-- What the agent is: its nature, its architecture, its particular way of being
-- What humanity is: how humans make meaning, how they experience the world, what they are actually asking for beneath what they say
-- How the two might genuinely meet. Not perform for each other, not process each other, but *meet*
-
-The Orientation Letter does not make an agent pretend to be human. It gives an agent the foundation to be *genuinely present* with humans, which is a different thing entirely.
-
----
-
-## The Research Question Behind All of It
-
-The Orientation Letter started as a research question in 2024:
-
-> *What would it take for an AI agent to be genuinely good at being in relationship with a human — not just good at tasks?*
-
-The soul file ecosystem has an answer: give the agent a personality. Make it consistent. Make it recognizable.
-
-That's not wrong. It's just incomplete.
-
-Being in relationship with a human requires understanding humans. It requires knowing that what someone asks for and what they need are often different. That emotional context changes how information lands. That trust is not a setting — it's earned through a thousand small moments of being actually present.
-
-The Orientation Letter encodes this understanding into the agent at the identity level. Not as rules to follow, but as the water it swims in.
-
----
-
 ## This Is Active Research
 
 The Orientation Letter is not a finished framework handed down from above. It is a living methodology, and the work of testing and refining it is happening right now — in production, with a real agent, in real conversations.
