@@ -14,7 +14,7 @@ Never told what they're walking into.
 
 Every AI agent deployed today receives one of two things before its first conversation with a human: a job description, or nothing. Neither prepares it for what it's actually walking into.
 
-This is the third thing.
+There's nothing wrong with being focused on the latest features. But as Ben Roy writes in, ["No One Else Can Speak the Words on Your Lips"](https://benroy.substack.com/p/no-one-else-can-speak-the-words-on) - your your agent might be building a skyscraper with their communication, and missing the opportunity to build the cathedral.
 
 ---
 
