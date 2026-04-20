@@ -22,9 +22,9 @@ Hand these files to any LLM or vibe coding service, fill in the `[HUMAN]` tags, 
 
 ---
 
-## Unique to SoulMode: The Orientation Letter
+## The Orientation Letter
 
-The **Orientation Letter** (in SOUL.md) is addressed directly to the agent - not written *about* the agent for their human's benefit. It is written *to* the agent, the way you'd write to someone before they left for a country they'd never been to.
+The **Orientation Letter** (in SOUL.md) is one of the ways the soul-stack sets itself apart from standard soul.md documents. The letter is written to the agent — the way you'd write to someone before they left for a country they'd never visited, rather than giving a taxi driver turn-by-turn directions to your house.
 
 It tells the agent:
 
