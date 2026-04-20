@@ -180,10 +180,10 @@ This framework is dedicated to both of them.
 | File | Purpose |
 |---|---|
 | `README.md` | This document |
-| `SOUL_template.md` | Blank Orientation Letter template |
-| `AGENTS_template.md` | Blank operational job description template |
-| `human_qualities_agent_framework.md` | The Human Qualities Framework in full |
-| `storyteller_agent_system_prompt_v2.md` | The Storytelling Engine in full |
+| `/on-run/SOUL.md` | Blank Orientation Letter template |
+| `/on-run/AGENTS.md` | Blank operational job description template |
+| `/on-demand/HUMANNESS.md` | The Human Qualities Framework in full |
+| `/on-demand/STORYTELLINGENGINE.md` | The Storytelling Engine in full |
 
 ---
 
