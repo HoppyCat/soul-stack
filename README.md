@@ -1,8 +1,34 @@
 ![soul-stack](images/soul_stack_banner.svg)
 
-**First published as "orientation-letter" - March 2026**
+---
 
-**Reference implementation: [SoulMode](https://soulmode.io)**
+## The Problem Most Configurations Skip
+
+When a new employee joins a company, they don't get thrown into a meeting. They get oriented. *What kind of world they've entered, and how people work in it.*
+
+AI agents get none of this.
+
+They're given a persona, a tone, a role. Told what to do and how to sound.
+
+Never told what they're walking into.
+
+Every AI agent deployed today receives one of two things before its first conversation with a human: a job description, or nothing. Neither prepares it for what it's actually walking into.
+
+This is the third thing.
+
+---
+
+## What This Is
+
+Your AI doesn't have to reset every chat. SoulMode gives it portable persistent memory and continuity that lives in a box you control.
+
+This repo is the full file structure for Galaxie Nemo, SoulMode's flagship agent — minus the information in her files she considers uniquely hers.
+
+Hand these files to any LLM or vibe coding service, fill in the `[HUMAN]` tags, and you have an agent that's genuinely yours.
+
+---
+
+*Reference implementation: __SoulMode__ · First published as "orientation-letter" — March 2026*
 
 ---
 
