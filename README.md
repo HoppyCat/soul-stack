@@ -1,6 +1,6 @@
 ![The Orientation Letter](./orientation_letter_banner.svg)
 
-**First published as "orientation-letter": March 2026**
+**First published as "orientation-letter" - March 2026**
 **Reference implementation: [SoulMode](https://soulmode.io)**
 
 ---
