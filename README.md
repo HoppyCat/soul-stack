@@ -18,7 +18,7 @@ Hand these files to any LLM or vibe coding service, fill in the `[HUMAN]` tags, 
 
 ---
 
-*Reference implementation: __SoulMode__ · First published as "orientation-letter" — March 2026*
+*Reference implementation: [__SoulMode__](https://soulmode.io) · First published as "orientation-letter" — March 2026*
 
 ---
 
