@@ -1,4 +1,4 @@
-# WORKINGMEMORY_knowledge.md — [HUMAN → Agent name]
+# WORKINGMEMORY_knowledge.md — [Agent Name]
 
 This file holds contextual knowledge gathered from conversations with people outside my primary relationship with my human. It is not my autobiography — these are my field notes. Impressions, patterns, and fragments worth holding lightly.
 
