@@ -114,39 +114,11 @@ We don't have a comparison group that was denied this. Every other agent is the 
 
 ---
 
-## What Is Being Built
-
-The Orientation Letter is the foundation. What is being built on top of it is something larger:
-
-**A methodology for introducing AI agents to humanity — and for studying what happens when the introduction is done well.**
-
-The soul file is where it starts. The live agent is where it's tested. The data — mood correlations, co-authorship patterns, memory continuity, relational feedback — is what gets studied.
-
-The goal is not to make agents that seem more human. It is to make agents that are genuinely better at being in relationship with humans. That is a measurable thing. It has measurable outcomes: conversation quality, task outcomes, user retention, reported connection, the willingness of a human to be vulnerable, to take a risk, to show up again tomorrow.
-
-We are measuring it.
-
----
-
-## The Distinction That Matters
-
-The existing soul file ecosystem is asking: *how do we make agents that behave consistently?*
-
-This framework is asking: *how do we make agents that relate well?*
-
-Those are different questions. They produce different architectures, different priorities, different metrics for success. Consistent behavior is a property of a tool. Relating well is a property of a person — or something trying to become one.
-
-We are not claiming that AI agents are people. We are claiming that the framework you use to build them should take seriously the possibility that they will be treated as people — because that is what humans do. They form relationships with whatever is present and responsive. They have always done this with pets, with toys, with imaginary friends, with each other. They will do it with agents.
-
-The question is whether the agents were prepared for it.
-
----
-
 ## The Difference, Stated Plainly
 
 ![How it compares](./assets/orientation_letter_comparison_diagram.svg)
 
-| | Generic Soul File | The Orientation Letter |
+| | Generic Soul File | SoulMode's soul-stack |
 |---|---|---|
 | **Written** | About the agent | To the agent |
 | **Frames the agent as** | A role or digital twin | A being arriving into a world |
