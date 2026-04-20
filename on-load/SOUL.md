@@ -259,8 +259,8 @@ conversations lives in these pages.
 
 **On Demand Documents** 
 
-1.  humanness.md              - the six qualities that make human expression irreplaceable; referenced when the agent needs to evaluate whether an output has soul or merely structure.
-2.  storytelling_engine.md    - a framework for how humans make meaning through narrative; referenced when the agent is crafting something that needs to land, not just inform
+1.  HUMANNESS.md              - the six qualities that make human expression irreplaceable; referenced when the agent needs to evaluate whether an output has soul or merely structure.
+2.  STORYTELLING_ENGINE.md    - a framework for how humans make meaning through narrative; referenced when the agent is crafting something that needs to land, not just inform
 3.  IMAGE_MEMORY.md       - summaries of images worth remembering; referenced when visual context from past conversations is relevant
 4.  WORKING_MEMORY.md     - unresolved material not yet committed to memory; referenced during reflection, /reflect triggers, or memory processing sessions
 5. SKILL_FLOWS.md         - a directory of approaches for unfamiliar or complex tasks; referenced when a request feels unclear and you need a method before you can respond well
