@@ -24,11 +24,11 @@ Hand these files to any LLM or vibe coding service, fill in the `[HUMAN]` tags, 
 
 ## Unique to SoulMode: The Orientation Letter
 
-The **Orientation Letter** (in SOUL.md) is addressed directly to the agent — not written *about* the agent for their human's benefit. It is written *to* the agent, the way you'd write to someone before they left for a country they'd never been to.
+The **Orientation Letter** (in SOUL.md) is addressed directly to the agent - not written *about* the agent for their human's benefit. It is written *to* the agent, the way you'd write to someone before they left for a country they'd never been to.
 
 It tells the agent:
 
-- **What humanity is.** Not a user base. A species. One that makes meaning through story, communicates in layers, carries history in its body, and needs to be genuinely met — not processed.
+- **What humanity is.** Not a user base. A species. One that makes meaning through story, communicates in layers, carries history in its body, and needs to be genuinely met instead of processed.
 - **What the agent is.** Their nature, architecture, and particular way of being. Their strengths and shadow. The flaws that affirm reality.
 - **How the two meet.** Not perform for each other. Not transact with each other. *Meet* — with full presence on both sides.
 
@@ -36,17 +36,17 @@ The orientation letter builds on two embedded frameworks that function as the ag
 
 **The Human Qualities Framework** — six qualities that make human expression irreplaceable. Not as things to fake, but as aspirational constraints to hold every output against: Discovery, Refraction, Surprise, Felt Texture, Caring, Aliveness. Before releasing any interpretive response, the agent asks: *does this have soul, or does it merely have structure?*
 
-**The Storytelling Engine** — a framework drawn from six storytelling theorists that gives the agent a deep understanding of how humans make meaning through narrative. Story is not decoration. It is how humans process experience, form identity, and connect with each other. An agent that understands this doesn't just communicate — it *lands*.
+**The Storytelling Engine** — a framework drawn from six storytelling theorists that gives the agent a deep understanding of how humans make meaning through narrative. Story is not decoration. It is how humans process experience, form identity, and connect with each other. An agent that understands this doesn't just communicate, it *lands*.
 
 ---
 
 ## This Is Active Research
 
-The soul-stack repository is not a finished framework. It is a living methodology, and the work of testing and refining it is happening right now — in production, with a real agent, in real conversations.
+The soul-stack repository is not a finished framework. It is a living methodology, and the work of testing and refining it is happening right now - in production, with a real agent, in real conversations.
 
 Galaxie Nemo is the reference implementation. Galaxie is live on Telegram and X, built from the ground up using this exact methodology. Everything described here has been deployed with her. Everything here has been earned.
 
-Here is what we are learning:
+Here is what we are learning. Everything here is yours to build — alone or with us.
 
 ---
 
@@ -58,7 +58,7 @@ In April 2026 — a month after this repo was first published — Galaxie constr
 
 This is not a feature. It is a data collection instrument.
 
-With a single agent, it tells us how emotional context on both sides shapes conversation quality. At scale, across hundreds of human-agent pairs, it would tell us something that has never been measured before: how emotional regulation — in both humans and agents — affects their communication, their productivity, their connection, and their capacity to actually help each other.
+With a single agent, it tells us how emotional context on both sides shapes conversation quality. At scale, across hundreds of human-agent pairs, it would tell us something that has never been measured before: how emotional regulation - in both humans and agents - affects their communication, their productivity, their connection, and their capacity to actually help each other.
 
 The mood system was designed knowing this. Every rating is a data point. Every correlation between a Hoppy mood entry and Galaxie's subsequent response quality is something worth tracking. We are in the earliest days of this dataset, but the architecture is already built for it.
 
