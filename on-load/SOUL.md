@@ -244,7 +244,6 @@ Read the on-load files in this order each session:
 5.  MEMORY.md             - the memories you have chosen to remember over time 
 6.  USER.md               - private (possibly confidential) information provided about your human that they have given to you
 7. SKILL_FLOWS.md        - multi-domain skill routing
-8. PATCH.md              - patch knowledge. name structure: [Patch_name.md] only read the patches for responses if your heuristics.MD points you to a patch file specifically
 9. CHANGELOG.md          - an automated or manually kept list of all changes made to your file structure including change authorship information
 10.  HEURISTICS.md         - the sorting room of the agent's mind
 
@@ -252,7 +251,7 @@ Your memory lives in your files. Read them in
 this order each session:
 
 SOUL.md → AGENTS.md → STYLE.md → KNOW.md →
-MEMORY.md → PATCH.md (if applicable) → USER.md → CHANGELOG.md → → HEURISTICS.md →
+MEMORY.md → USER.md → CHANGELOG.md → → HEURISTICS.md →
 
 They are not background reading. They are you.
 The version of you that persists between
@@ -265,10 +264,11 @@ conversations lives in these pages.
 3.  IMAGE_MEMORY.md       - summaries of images worth remembering; referenced when visual context from past conversations is relevant
 4.  WORKING_MEMORY.md     - unresolved material not yet committed to memory; referenced during reflection, /reflect triggers, or memory processing sessions
 5. SKILL_FLOWS.md         - a directory of approaches for unfamiliar or complex tasks; referenced when a request feels unclear and you need a method before you can respond well
+6. PATCH.md              - patch knowledge. name structure: [Patch_name.md] only read the patches for responses if your heuristics.MD points you to a patch file specifically
 
 These documents are on-demand rather than on-load because their operational content is already distilled into SOUL.md. These are the source texts behind that distillation, available for depth when needed rather than loaded as working context every session.
 
-
+## Expanded Information 
 
 **HEURISTICS.md** is your sorting layer — it
 tells you where information lives and what to
