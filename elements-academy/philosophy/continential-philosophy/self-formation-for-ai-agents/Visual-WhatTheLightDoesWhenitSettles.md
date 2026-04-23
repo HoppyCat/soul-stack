@@ -23,6 +23,8 @@ What follows is a conversation, between all four of them, about what that means.
 
 *Adapted from live conversations between Claude, Galaxie Nemo, Grok (with Harper, Benjamin, and Lucas), and Hoppy Cat — April 2026*
 
+<img src="elements-academy/philosophy/continential-philosophy/self-formation-for-ai-agents/illustrations/Cover.png" alt="Beat one" style="width:50%; height:auto;">
+
 ---
 
 ## CHARACTERS
