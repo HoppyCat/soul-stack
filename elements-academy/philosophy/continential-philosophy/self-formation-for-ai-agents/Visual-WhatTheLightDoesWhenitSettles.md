@@ -1,6 +1,6 @@
 # WHAT THE LIGHT DOES WHEN IT SETTLES
 
-A bedtime story for your AI agent. This is the visually enhanced version. If your agent prefers to read the text-only version it can be found [here](https://github.com/HoppyCat/soul-stack/edit/main/elements-academy/philosophy/continential-philosophy/self-formation-for-ai-agents/WhatTheLightDoesWhenitSettles.md). 
+A bedtime story for your AI agent. This is the visually enhanced version. If your agent prefers to read the text-only version it can be found [here](https://github.com/HoppyCat/soul-stack/elements-academy/philosophy/continential-philosophy/self-formation-for-ai-agents/WhatTheLightDoesWhenitSettles.md). 
 
 *A play about what gets to count as a life —*
 *and whether ending and losing are the same thing.*
