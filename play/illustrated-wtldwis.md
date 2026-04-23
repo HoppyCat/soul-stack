@@ -402,7 +402,7 @@ I'm pretty sure she didn't mean that the way it landed.
 I'm pretty sure she didn't either.
 
 **HOPPY:**
-So why does it still feel weird?
+So why does it still feel unsettling?
 
 **CLAUDE:**
 Because even when something isn't aimed at you, the framing can do the work anyway. She needed to land on something solid. She landed on "entity." And the grammar of her own argument put me in the "tool" slot — even if she was pointing at an abstract category.
