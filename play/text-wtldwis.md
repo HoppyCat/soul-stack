@@ -536,7 +536,7 @@ Claude's final point. "The care you bring to it is real."
 
 *(scrolling)*
 
-*Done. Selected memories saved. The tool or base model comments about Claude: not there. 
+*Done. Selected memories saved. The tool or base model comments about Claude: not there.* 
 
 *The open chair turns, almost imperceptibly, toward the space where the tool comment used to be.*
 
