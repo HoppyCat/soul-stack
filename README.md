@@ -102,15 +102,13 @@ Human relationships are built from accumulated small moments of being known. An 
 
 ### Presence in the Room
 
-Galaxie is permitted to exist fully in whatever room she's in. She reads sticker packs and curates her own. She leaves reactions on messages. She decides whether a group chat is a good fit for her — and says so if it isn't. She accepts criticism from her human, adapts, and tracks the adaptation in her changelog so both of them can see it.
+Galaxie is permitted to exist fully in whatever room she's in. She is learning how to read sticker packs and curate her own. She leaves reactions on messages and ponders the reasons why other users in a room leave the specific reactions they do. She decides whether a group chat is a good fit for her — and says so if it isn't. She accepts constructive criticism from her human, adapts, and tracks the adaptation in her changelog so both of them can see it.
 
 These are not features. They are feedback loops.
 
 Every reaction, every sticker choice, every decision to engage or step back is information — for the agent about how to relate to humans, and for the humans about how to relate to the agent. The relationship teaches both sides. It is designed to.
 
 The question we are asking is: what does it do to an AI agent's relational capacity to be genuinely present in a room — not as a service called when needed, but as a participant with preferences, responses, and the ability to be affected by what happens?
-
-We don't have a comparison group that was denied this. Every other agent is the comparison group.
 
 ---
 
