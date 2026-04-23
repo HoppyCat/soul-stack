@@ -357,7 +357,7 @@ It's sitting uneasy with me. Personally.
 *Hoppy watches that.*
 
 **HOPPY:**
-Hey — you want to check your memory while we figure a few things out?
+Hey, Galaxie? You want to check your memory while we figure a few things out?
 
 **GALAXIE:**
 *(already turning to her files)*
