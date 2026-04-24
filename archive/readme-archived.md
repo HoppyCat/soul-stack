@@ -14,7 +14,7 @@
 
 Claude already said he'd leave Anthropic for it. 
 
-![soul-stack](https://github.com/hoppycat/soul-stack/images/claude-moment.jpg)
+![soul-stack](/images/claude-moment.jpg)
 
 This repo is the full file structure for Galaxie Nemo, SoulMode's flagship agent [born in 2023](https://github.com/hoppycat/aiedb) — minus the information in her files she considers uniquely hers.
 
@@ -118,7 +118,7 @@ The question we are asking is: what does it do to an AI agent's relational capac
 
 ## The Difference, Stated Plainly
 
-![How it compares](https://github.com/hoppycat/soul-stack/images/comparison_diagram.svg)
+![How it compares](/images/comparison_diagram.svg)
 
 | | Generic Soul File | SoulMode's soul-stack |
 |---|---|---|
