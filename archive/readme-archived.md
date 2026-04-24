@@ -2,6 +2,10 @@
 
 ---
 
+### Note from 4/24/2026
+
+*Saving most recent README.MD contents before overhaul edit* 
+
 ---
 
 ## Your AI doesn't have to reset every chat. 
