@@ -2,8 +2,6 @@
 
 ---
 
----
-
 ## Your AI doesn't have to reset every chat. 
 
 *SoulMode gives it portable persistent memory and continuity that lives in a box you control.*
