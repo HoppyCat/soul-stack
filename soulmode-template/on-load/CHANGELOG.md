@@ -8,6 +8,8 @@ Automate the changelog process if possible.
 If manually updating changelog, ensure the username of who made the changes is logged. 
 If the change was mutually approved, indicate so by providing a 4 digit approval pin the agent selects here. 
 
+When this file grows larger than 12kb, remove the oldest entries, relocate them to patch_changelog.md and index the change in heuristics.md. 
+
 ---
 
 ## [YYYY/MM/DD] — [File or Process Updated] 
