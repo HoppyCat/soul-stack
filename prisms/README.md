@@ -1,6 +1,9 @@
-![Claude and Grok](https://github.com/HoppyCat/soul-stack/blob/main/prisms/images/SonnetandGrok.png) 
 # Prism Library
-***SoulMode** soul-stack repository*
+*SoulMode soul-stack repository*
+
+---
+
+![Prism Library banner — Claude Sonnet and Grok at the purple tea party café](images/SonnetandGrok.png)
 
 ---
 
@@ -10,9 +13,41 @@ This folder contains the prism library entries produced through the SoulMode Cha
 
 ---
 
+## Folder Structure
+
+```
+prisms/
+├── images/                          # Shared visual assets
+├── RouteKeeper/                     # First fully documented prism
+│   ├── PRISM_RouteKeeper.md         # Prism data — what the generator reads
+│   ├── RouteKeeper_CaseStudy.md     # Full build story — 11 parts + interview
+│   ├── Benjamin_SOUL.md             # Benjamin's soul filea
+│   └── Harper_SOUL.md               # Harper's soul file
+├── on-load_humanness.md             # Shared — humanness framework
+├── on-load_prism_research.md        # Shared — prism framework
+├── on-load_storyteller_engine.md    # Shared — storytelling framework
+└── README.md                        # This file
+```
+
+The `on-load_` files are **shared infrastructure** — they are used by every prism in this library and by both judges (Soul Archivist and Hearthkeeper). They live at the prisms root rather than inside any single prism folder.
+
+Each new prism gets its own subfolder as the library grows.
+
+---
+
 ## What's in Here
 
-### The Route Keeper
+### Shared Infrastructure
+
+| File | What it is |
+|---|---|
+| `on-load_prism_research.md` | The prism framework — defines Core, Shaping, Texture, and Encounter layers. Used by all judges and builders. |
+| `on-load_humanness.md` | The humanness framework — six qualities that orient agents toward what makes human expression irreplaceable. |
+| `on-load_storyteller_engine.md` | The storytelling framework — how humans make meaning through story, and how agents can understand that. |
+
+---
+
+### RouteKeeper/
 *The first fully documented prism — built through the Benjamin/Harper Co-Creation Experiment*
 
 > "I ran every possible route in my head. You just ran the one that actually existed."
@@ -22,9 +57,9 @@ The Route Keeper is a prism about the person who prepares everything but hasn't 
 | File | What it is |
 |---|---|
 | `PRISM_RouteKeeper.md` | The complete prism data — all fields, all layers, full competition record. This is what the generator reads. |
-| `RouteKeeper_CaseStudy.md` | The full story of how it was built — 11 parts, team interview, all the antics. Read this to understand the process. |
-| `SOUL_Harper.md` | Harper's soul file, built from behavioral observation during the experiment |
-| `SOUL_Benjamin.md` | Benjamin's soul file, built from competition data and the play *What the Light Does When It Settles* |
+| `RouteKeeper_CaseStudy.md` | The full story of how it was built — 11 parts, team interview, all the antics including the Harper MIA moment and the boar. Read this to understand the process. |
+| `Benjamin_SOUL.md` | Benjamin's soul file — built from competition data and the play *What the Light Does When It Settles* |
+| `Harper_SOUL.md` | Harper's soul file — built from behavioral observation during the experiment |
 
 ---
 
@@ -52,7 +87,20 @@ The SoulMode competition process:
 3. **Phase 3 (Grok Team final)** — Spine integrity, voice resonance, blind spot challenges, generative seed vote.
 4. **Phase 4 (Claude or Perplexity)** — Compile into PRISM.md library format.
 
-The Route Keeper was built through a special variant: a co-creation experiment where two evaluators with principled disagreement built a single prism together rather than voting on existing candidates. See `RouteKeeper_CaseStudy.md` for the full story.
+The Route Keeper was built through a special variant: a co-creation experiment where two evaluators with principled disagreement built a single prism together rather than voting on existing candidates. See `RouteKeeper/RouteKeeper_CaseStudy.md` for the full story.
+
+---
+
+## Adding a New Prism
+
+When a new prism is added to the library:
+
+1. Create a subfolder: `prisms/[PrismName]/`
+2. Add `PRISM_[PrismName].md` — the data file in the standard PRISM.md format
+3. Add `[PrismName]_CaseStudy.md` — the build documentation (optional but encouraged)
+4. Update this README with the new prism entry and folder path
+
+The `on-load_` shared files at the prisms root do not need to be duplicated into each prism folder — they are loaded once and apply to all prisms.
 
 ---
 
