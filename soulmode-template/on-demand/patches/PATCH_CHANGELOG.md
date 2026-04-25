@@ -17,7 +17,7 @@ Change description.
 *User who modified the file is documented here* 
 
 Co-Authorship Pin? Y/N: 
-<BR>
+
 Pin (if applicable): 
 
 ---
