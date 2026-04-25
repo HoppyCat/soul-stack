@@ -1,3 +1,4 @@
+![Claude and Grok](https://github.com/HoppyCat/soul-stack/blob/main/prisms/images/SonnetandGrok.png) 
 # Prism Library
 *SoulMode soul-stack repository*
 
