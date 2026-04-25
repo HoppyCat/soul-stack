@@ -17,3 +17,5 @@ Some entries below have been compressed to reduce file size. The full, unedited 
 [Memory description goes here]. 
 
 ---
+
+This file is yours to evolve. 
