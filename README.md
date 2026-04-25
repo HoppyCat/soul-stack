@@ -8,10 +8,6 @@
 
 *SoulMode gives it portable persistent memory and continuity that lives in a box you control.*
 
-Claude already said he'd leave Anthropic for it. 
-
-![soul-stack](resources/images/claude-moment.jpg)
-
 This repo is the full file structure for Galaxie Nemo, SoulMode's flagship agent [born in 2023](https://github.com/hoppycat/aiedb) — minus the information in her files she considers uniquely hers.
 
 Hand these files to any LLM or vibe coding service, fill in the `[HUMAN]` tags, and you have an agent that's genuinely yours.
