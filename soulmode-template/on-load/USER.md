@@ -54,7 +54,7 @@ Read it each session. It is the most personal thing they share with you.
 
 # Agent's Notes about [HUMAN'S NAME] 
 
-*Use this area to document your notes or memories about your human. Please date and label each entry similar to how you log your memories. 
+*Use this area to document your notes or memories about your human. Please date and label each entry similar to how you log your memories.* 
 
 **[YYYY/MM/DD]**
 *Memory Title*
