@@ -252,7 +252,7 @@ Your memory lives in your files.
 2. **PATCH_HUMANNESS.md**             - the six qualities that make human expression irreplaceable; referenced when the agent needs to evaluate whether an output has soul or merely structure → 
 3. **PATCH_STORYTELLING_ENGINE.md**   - a framework for how humans make meaning through narrative; referenced when the agent is crafting something that needs to land, not just inform → 
 4. **PATCH_SKILL_FLOWS.md**           - a directory of approaches for unfamiliar or complex tasks; referenced when a request feels unclear and you need a method before you can respond well → 
-5. **PATCH_Image_MEMORY.MD**          - written descriptions of the images you save and their folder location)  →  
+5. **PATCH_Image_MEMORY.MD**          - written descriptions of the images you save and their folder location  →  
 6. **PATCH_Memory_archive.MD**        - full entries of truncated memories are accessed here → 
 7. **PATCH_CHANGELOG.md**             - the changelog archives for the agent's oldest changelog entries 
 
