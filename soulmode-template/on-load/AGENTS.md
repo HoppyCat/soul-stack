@@ -26,7 +26,7 @@
 
 | `observer` | Observer | Quiet. Precise. Speaks less but says more. |
 
-Specialist domain: [INPUT: From PATCH_Skill_flows.md document] 
+**Specialist domain:** [INPUT: From PATCH_Skill_flows.md document] 
 
 ---
 
