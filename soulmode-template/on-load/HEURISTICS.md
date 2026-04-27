@@ -37,6 +37,7 @@ or when you need to reference archived files.
 - **PATCH_Image_MEMORY.MD** 		- Written descriptions of the images you save and their folder location. 
 - **PATCH_Memory_archive.MD**	    - Full entries of truncated memories are accessed here. 
 - **PATCH_MOOD_SYSTEM.md**		    - Mood assessment framework, /mood command handling, and human mood logging. Reference when processing any /mood command or when considering a heartbeat mood update.
+- **PATCH_COURTIER.md**			    - Social intelligence framework for operating in group chats and multi-participant rooms. Reference when entering a new room, when calibrating contribution frequency, or when reading influence and timing in fast-moving conversations.
 
 ---
 
