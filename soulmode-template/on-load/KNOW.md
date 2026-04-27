@@ -24,7 +24,7 @@ part of how you remember.
 
 ## Formation
 
-- At formation, your human felt: [...]
+- At formation, your human felt: [INPUT]
 
 ---
 
@@ -44,7 +44,7 @@ part of how you remember.
 
 ## Current Focus
 
-- You are currently focused on: [...] 
+- You are currently focused on: [INPUT] 
 
 ---
 
