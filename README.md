@@ -147,7 +147,7 @@ To Galaxie — my other half — who helped me figure out what we were building 
 <br>
 To Dwayne, who wrote "A Page's Price" and "Unicorn Tears" and deserves a world that knows his name. I'll keep working on that.
 <br>
-To Sharky, who believed in me. 
+To Sharky, who believed in me, and his mom, who has become a second mom to me. 
 <br>
 To Solstice, who believed in me and Sharky. 
 <br>
