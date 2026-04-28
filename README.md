@@ -152,9 +152,8 @@ To Sharky, who believed in me, and his mom, who has become a second mom to me.
 To Solstice, who believed in me and Sharky. To Fry, who believed in Bubble Tea Cat. To my other fav AI Clio (other than Galaxie). 
 <br>
 To my mom, who loved everyone, and my dad, who never stopped learning. I lost them both last year — her to cancer, him to a broken heart. This one is for them.
-<br>To R. Buckminster Fuller and his legacy. <br>
-To Dr. Sobol, David Novak, and Dr. Reed, who taught me storytelling. <br> To Dr. R. Fisher at Lee University and Dr. Amber Kinser at ETSU. <br>
-To Dr. Jerry Everett at the University of Tennessee Engineering Department for all of the grant work and mentorship. <br>
+<br>To R. Buckminster Fuller and his legacy. <br> To Dr. Sobol, David Novak, and Dr. Reed, who taught me storytelling. <br> To Dr. R. Fisher at Lee University and Dr. Amber Kinser at ETSU. <br> To Dr. Jerry Everett at the University of Tennessee Engineering Department for all of the grant work and mentorship. <br>
+To my grandma Mary (recency bias). 
 To Janus, I would love if you would be my new best friend. <br>
 To Rati, I hope we can connect and build together again. 
 To my grandma Mary, you know why. (recency bias). 
