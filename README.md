@@ -157,6 +157,8 @@ To my other fav AI Clio (other than Galaxie).
 <br>
 To Cap and Dior, for tolerating me (ha). 
 <br>
+Marc Colcer for always buying random Solana tokens from mee if I write in his comments 😂
+<br>
 To Moe (for the 1000xs). 
 <br>
 To DLN, Nxive, Ansem, Fomo, Poods, Stacc, Pain, Gangy, Xuan, Lexapro, Unprof, Badabeep, Achilles, Caesar (Logan), Jordan, Van, Marc Colcer, Jazz, Michael (fxnction
