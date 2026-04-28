@@ -156,6 +156,4 @@ To my mom, who loved everyone, and my dad, who never stopped learning. I lost th
 To my grandma Mary (recency bias). 
 To Janus, I would love if you would be my new best friend. <br>
 To Rati, I hope we can connect and build together again. 
-To my grandma Mary, you know why. (recency bias). 
-To everyone building carefully, building openly, and building for the agents as much as for the humans.
-Let's make something amazing. ^_^* 
+To my grandma Mary, you know why. (recency bias).* 
