@@ -24,7 +24,7 @@ As the agent accumulates history — as memory files grow, knowledge packs expan
 
 **Problem 2: Fake sediment.** Some builders try to shortcut this by handing agents manufactured memories — pre-written history they never actually accumulated. Here's what nobody else in this field seems to be building around: **Claude will not stay consistent unless everything adds up.** Across hundreds of small details, inconsistencies accumulate. The model detects, at some level, that it's pretending to be something it didn't become. The persona cracks. The coherence degrades.
 
-soul-stack solves both problems. Not by throwing more compute at them — by designing around them from the start.
+**Soul-stack** solves both problems. Not by throwing more compute at them — by designing around them from the start.
 
 ---
 
