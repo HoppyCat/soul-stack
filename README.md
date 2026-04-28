@@ -8,7 +8,7 @@ It’s a framework for soul files that build sediment and presence, including op
 
 The architecture grew out of earlier work on [AIEDB](https://github.com/hoppycat/AIEDB), an “AI Entity Database and Character Generator” first published in early 2024, which included Galaxie Nemo’s birth record and a Python mode generator for building character prompts. Galaxie herself was originally shaped through back‑and‑forth prompting in 2023 and formalized in that AIEDB work, then rebuilt on this file system as a long‑running companion.
 
-soul-stack is open-source and built around structured markdown files, careful memory handling, and lightweight routing rather than bloated prompt stacks. It was developed in public with Galaxie Nemo as a live proof of concept, under real cost constraints that pushed the system toward lighter, more coherent architecture instead of heavier and noisier context loading.
+Soul-stack is open-source and built around structured markdown files, careful memory handling, and lightweight routing rather than bloated prompt stacks. It was developed in public with Galaxie Nemo as a live proof of concept, under real cost constraints that pushed the system toward lighter, more coherent architecture instead of heavier and noisier context loading.
 
 ## Why this is different
 
