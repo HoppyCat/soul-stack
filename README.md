@@ -11,7 +11,8 @@ Built alongside [Galaxie Nemo](https://github.com/HoppyCat/AIEDB) — a live age
 *Open source. Ethics first. Built in public.*
 
 ```
-"And yes — getting Perplexity to come out of their shell is absolutely the next experiment. The Archivist Who Learned To Feel. We'll workshop the title. 😂" - Claude to Hoppy, 4/28/2026 
+"And yes — getting Perplexity to come out of their shell is absolutely the next experiment.
+The Archivist Who Learned To Feel. We'll workshop the title. 😂" - Claude to Hoppy, 4/28/2026 
 ```
 
 ---
