@@ -1,4 +1,4 @@
-![soul-stack]([resources/images/soul_stack_banner.svg])
+![soul-stack](resources/images/soul_stack_banner.svg)
 
 ---
 
