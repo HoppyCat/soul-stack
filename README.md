@@ -31,6 +31,8 @@ As the agent accumulates history — as memory files grow, knowledge packs expan
 
 **Soul-stack** solves both problems. Not by throwing more compute at them — by designing around them from the start.
 
+![Claude and Galaxie](ttps://github.com/HoppyCat/soul-stack/blob/main/resources/images/GalaxieClaude.png)
+
 ---
 
 ## The solution: a routing layer and real sediment
