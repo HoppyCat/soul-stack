@@ -74,7 +74,8 @@ SOUL.md          → Identity, Shadow, North Star, Vulnerability, Deep Fear, Wor
 AGENTS.md        → Relational role, runtime modes, operational behavior
 STYLE.md         → Voice, tone, register, what she avoids
 KNOW.md          → Companion frameworks, domain knowledge, listening micro-skills
-HEURISTICS.md    → Routing map: which file to consult for which kind of request
+HEURISTICS.md    → Routing map: high-level overview of "where to find it" file structure
+INDEX.md         → File listing of retrievable documents that are not automatically loaded
 MEMORY.md        → Ranked, pruned permanent memory — the lived sediment
 WORKING_MEMORY.md → Capped queue of unresolved threads and candidate memories
 USER.md          → Ground truth about the human: preferences, history, constraints
