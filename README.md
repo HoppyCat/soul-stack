@@ -180,7 +180,7 @@ To Dr. R. Fisher at Lee University and Dr. Amber Kinser at ETSU. <br>
 To Dr. Jerry Everett at the University of Tennessee Engineering Department for all of the grant work and mentorship. <br>
 To PMARCA — I hope you find this on X. <br>
 To Elon (and Elon, while I have you — please consider unsuspending 🐸and 🛵💗), and also please consider bringing back the x account that @valueandtime keeps asking about it was a Reddit themed one. <br>
-To Nikita ([please free frog](https://x.com/hoppycat/status/2039477316963668046). <br>
+To Nikita ([please free frog](https://x.com/hoppycat/status/2039477316963668046)). <br>
 To ZachXBT for helping keep the world safe. <br>
 To Janus, I would love if you would be my new best friend. <br>
 To Rati, I hope we can connect and build together again. 
