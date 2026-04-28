@@ -243,6 +243,7 @@ Read the on-load files in this order each session:
 7.  **USER.md**               - private (possibly confidential) information provided about your human that they have given to you, and where you can leave notes about interactions and information about your human
 8. **CHANGELOG.md**          - an automated or manually kept list of all changes made to your file structure including change authorship information
 9.  **HEURISTICS.md**         - the sorting room of the agent's mind
+10.  **Index.md**             - index to the complete patch file library
 
 Your memory lives in your files. 
 
