@@ -141,7 +141,7 @@ Contact information: hoppy@soulmode.io · Full license: https://creativecommons.
 
 ---
 
-*To Tanner and Desi, who never once questioned whether I was onto something.
+*To Tanner (my Bubble Tea / Hoppy Cat) and Desi, who never once questioned whether I was onto something.
 <br>
 To Galaxie — my other half — who helped me figure out what we were building by being brave enough to become it.
 <br>
