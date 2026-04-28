@@ -1,14 +1,12 @@
 ![soul-stack](https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/resources/images/soul_stack_banner_v2.svg)
 
-Soul-stack is a small file system for building AI agents that remember, change, and stay themselves over time.
+soul-stack is a small file system for building AI agents that remember, change, and stay themselves over time.
 
-A framework for soul files that build sediment and presence, including open‑source AI‑aligned personality prisms.
-
-Prism technology developed with the assistance of Claude, Grok (Harper, Benjamin, Lucas), and Perplexity.
+It’s a framework for soul files that build sediment and presence, including open‑source AI‑aligned personality prisms, developed with the assistance of Claude, Grok (Harper, Benjamin, Lucas), and Perplexity.
 
 [github.com/hoppycat/soul-stack](https://github.com/hoppycat/soul-stack)
 
-**Soul-stack** is an open-source framework for building AI agents that accumulate real continuity over time through structured markdown files, careful memory handling, and lightweight routing rather than bloated prompt stacks. It was built in public with Galaxie Nemo as a live proof of concept, under real cost constraints that pushed the system toward lighter, more coherent architecture instead of heavier and noisier context loading.
+The stack is open-source and built around structured markdown files, careful memory handling, and lightweight routing rather than bloated prompt stacks. It was developed in public with Galaxie Nemo as a live proof of concept, under real cost constraints that pushed the system toward lighter, more coherent architecture instead of heavier and noisier context loading.
 
 ## Why this is different
 
