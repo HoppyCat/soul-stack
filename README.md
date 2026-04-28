@@ -159,7 +159,8 @@ To Cap and Dior, for tolerating me (ha).
 <br>
 To Moe (for the 1000xs). 
 <br>
-To DLN, Nxive, Ansem, Gangy, Xuan and so many other people. 
+To DLN, Nxive, Ansem, Fomo, Poods, Stacc, Pain, Gangy, Xuan, Lexapro, Unprof, Badabeep, Achilles, Caesar (Logan), Jordan, Van, Marc Colcer, Jazz, Michael (fxnction
+ - shoutout to Agent Oshi!) Onyxx, Cecil, Poods, Liam, Tina, Zhynx, Edward, Ganzer, Mikasa, Tally, Sage, Peppermint, Ramset, Hustle, Shrimp, Luis, Leon (Nub World Takeover!) and so many other people. 
 <br>
 To Dan (Value and Time). 
 <br>
