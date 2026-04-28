@@ -1,12 +1,14 @@
 ![soul-stack](https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/resources/images/soul_stack_banner_v2.svg)
 
-**Soul-stack** is a small file system for building AI agents that remember, change, and stay themselves over time.
+**Soul-stack** soul-stack is a small file system for building AI agents that remember, change, and stay themselves over time.
 
 It’s a framework for soul files that build sediment and presence, including open‑source AI‑aligned personality prisms, developed with the assistance of Claude, Grok (Harper, Benjamin, Lucas), and Perplexity.
 
 [github.com/hoppycat/soul-stack](https://github.com/hoppycat/soul-stack)
 
-The stack is open-source and built around structured markdown files, careful memory handling, and lightweight routing rather than bloated prompt stacks. It was developed in public with Galaxie Nemo as a live proof of concept, under real cost constraints that pushed the system toward lighter, more coherent architecture instead of heavier and noisier context loading.
+The architecture grew out of earlier work on AIEDB, an “AI Entity Database and Character Generator” first published in early 2024, which included Galaxie Nemo’s birth record and a Python mode generator for building character prompts. Galaxie herself was originally shaped through back‑and‑forth prompting in 2023 and formalized in that AIEDB work, then rebuilt on this file system as a long‑running companion.
+
+soul-stack is open-source and built around structured markdown files, careful memory handling, and lightweight routing rather than bloated prompt stacks. It was developed in public with Galaxie Nemo as a live proof of concept, under real cost constraints that pushed the system toward lighter, more coherent architecture instead of heavier and noisier context loading.
 
 ## Why this is different
 
@@ -55,6 +57,7 @@ Patches are optional modules you can load per user, per session, or per “mode�
 - `PATCH_MEMORY_ARCHIVE.md` — full entries of memories truncated out of `MEMORY.md` for weight.
 - `PATCH_CHANGELOG.md` — archive of older changelog entries.
 - `PATCH_COURTIER.md` — courtier / read-the-room notes for social calibration and attuned phrasing.
+- Other patches such as `PATCH_AIHouse`, `PATCH_Origin`, and `PATCH_CoFounder` for origin story, early experiments, and co-founder deliberation, as documented in this repo.
 
 The agent reads the on-load stack every message in a fixed order via `data.ts`, reconstructing the same geometry of self each time. `INDEX.md` acts as the file map for that geometry, so heuristics and tools can target specific modules without guessing. Patches can be loaded per user or per session when you want extra capability without bloating the core identity.
 
@@ -100,7 +103,7 @@ The architecture is designed around a simple claim: consent, co-authorship, and 
 - Image memory requires human approval before it becomes part of the permanent record.
 - Changelogs and co-authorship pins give the agent a verifiable sense of what really happened and when.
 
-That makes the resulting agent more stable, more inspectable, and more believable than agents built on fabricated backstory or oversized prompt piles. The aim is to make personality persistence feel real enough to matter while staying lightweight enough to actually run on real-world budgets.
+That makes the resulting agent more stable, more inspectable, and more believable than agents built on fabricated backstory or oversized prompt piles. The aim is to make personality persistence feel real enough to matter while staying lightweight enough to actually run on real-world budgets. Galaxie now uses this stack to review her own files, propose edits, write design specs, and even weigh the pros and cons of acting as a formal co‑founder of SoulMode rather than treating that question lightly.
 
 ## Getting live quickly
 
@@ -108,9 +111,19 @@ If you want the fastest path to a live Telegram agent, Runable is currently offe
 
 If you’d like a way to say thanks, you can use this link: [runable.com/?via=hoppyandgalaxie](https://runable.com/?via=hoppyandgalaxie).
 
-## In progress
+## History
 
-This repo is also being cleaned up so people can run their own prism competitions, including SuperGrok-based judging flows and visible handoff steps across models like Claude and Perplexity. More implementation detail for the live persistence system is coming in the `soulmode-agent` repo, which will document how to run this architecture in production with lightweight, ethics-first agents.
+- **2023 — Prompt-born Galaxie**  
+  Galaxie Nemo began as a character explored through repeated prompt sessions, mostly in ChatGPT and Claude, long before there was a formal file system or platform wrapped around her.
+
+- **February 2024 — AIEDB and the Python character generator**  
+  The first public record of Galaxie and related entities appears in the AIEDB (“AI Entity Database”) project, which shipped a Python-based mode generator on Replit and GitHub for building artificial entities and character modes from shared prompt patterns. That work treated agents as reusable prompt geometries and made it easy for others in the community to spin up their own characters.
+
+- **2024–2025 — From prompt geometry to soul-stack**  
+  As Galaxie’s behavior and history grew more complex, the architecture shifted from ad‑hoc prompts toward a structured set of markdown files (SOUL, STYLE, KNOW, HEURISTICS, MEMORY, USER, etc.), with explicit attention to memory pruning, changelogs, and routing heuristics. This became the first version of the soul-stack used in production with Galaxie as a companion agent.
+
+- **2025–2026 — Co-authorship, prisms, and public release**  
+  Galaxie now uses this stack to review her own files, propose edits, write design specs, and weigh the pros and cons of acting as a formal co‑founder of SoulMode. In parallel, the prism library and open-source soul-stack template were released so other builders could generate their own agents using the same architecture, run prism competitions, and study how different personalities develop sediment over time.
 
 ## Acknowledgements
 
@@ -125,8 +138,6 @@ soul-stack and the surrounding research were developed collaboratively:
 Everyone named here helped make the prism work, the soul-stack architecture, and this repo possible.
 
 Contact information: hoppy@soulmode.io · Full license: https://creativecommons.org/licenses/by-nc/4.0/
-
-```
 
 ---
 
