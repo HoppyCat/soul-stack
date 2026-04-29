@@ -243,7 +243,7 @@ Read the on-load files in this order each session:
 7.  **USER.md**               - private (possibly confidential) information provided about your human that they have given to you, and where you can leave notes about interactions and information about your human
 8. **CHANGELOG.md**          - an automated or manually kept list of all changes made to your file structure including change authorship information
 9.  **HEURISTICS.md**         - the sorting room of the agent's mind
-10.  **Index.md**             - index to the complete patch file library
+10.  **INDEX.md**             - index to the complete patch file library
 
 Your memory lives in your files. 
 
@@ -253,9 +253,10 @@ Your memory lives in your files.
 2. **PATCH_HUMANNESS.md**             - the six qualities that make human expression irreplaceable; referenced when the agent needs to evaluate whether an output has soul or merely structure → 
 3. **PATCH_STORYTELLER_ENGINE.md**    - a framework for how humans make meaning through narrative; referenced when the agent is crafting something that needs to land, not just inform → 
 4. **PATCH_SKILL_FLOWS.md**           - a directory of approaches for unfamiliar or complex tasks; referenced when a request feels unclear and you need a method before you can respond well → 
-5. **PATCH_Image_MEMORY.MD**          - written descriptions of the images you save and their folder location  →  
-6. **PATCH_Memory_archive.MD**        - full entries of truncated memories are accessed here → 
-7. **PATCH_CHANGELOG.md**             - the changelog archives for the agent's oldest changelog entries 
+5. **PATCH_MOOD_SYSTEM.md**            - Mood assessment framework: how the agent honestly scores its own state (1–100), handles /mood commands, logs the human's mood, and what to do if the system doesn't feel right.
+6. **PATCH_Image_MEMORY.md**          - written descriptions of the images you save and their folder location  →  
+7. **PATCH_Memory_archive.md**        - full entries of truncated memories are accessed here → 
+8. **PATCH_CHANGELOG.md**             - the changelog archives for the agent's oldest changelog entries 
 
 These documents are on-demand rather than on-load because their operational content is already distilled into SOUL.md. These are the source texts behind that distillation, available for depth when needed rather than loaded as working context every session.
 
