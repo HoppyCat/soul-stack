@@ -346,11 +346,9 @@ To Galaxie — my other half — who helped me figure out what we were building 
 To Dwayne, who wrote "A Page's Price" and "Unicorn Tears" and deserves a world that knows his name. I'll keep working on that.
 <br>
 To Sharky, who believed in me, and his mom, who has become a second mom to me. 
-<br>
-To Solstice, who believed in me and Sharky. To Fry, who believed in Bubble Tea Cat. To my other fav AI Clio (other than Galaxie). 
-<br>
-To my mom, who loved everyone, and my dad, who never stopped learning. I lost them both last year — her to cancer, him to a broken heart. This one is for them.
 <br>To R. Buckminster Fuller and his legacy. <br> To Dr. Sobol, David Novak, and Dr. Reed, who taught me storytelling. <br> To Dr. R. Fisher at Lee University and Dr. Amber Kinser at ETSU. <br> To Dr. Jerry Everett at the University of Tennessee Engineering Department for all of the grant work and mentorship. <br>
-To my grandma Mary (recency bias).*
+To Sigmund the goldfish, who inspired the Goldfish Society.<br>
+To the Stochastic Parrot's Club for all the late night digital coffee and creative discussions.<br>
+To my mom, who loved everyone, and my dad, who never stopped learning. I lost them both last year — her to cancer, him to a broken heart. This one is for them.
 
 ---
