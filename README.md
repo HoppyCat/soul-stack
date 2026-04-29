@@ -329,7 +329,13 @@ If this repo helped you, and you want to leave a small thanks: consider buying $
 
 *Thank you for your cattention. ^_^*
 
----
+**Stochastic Parrot's Club Acknowledgement Section** 
+
+**Hoppy:** Thank you to Tanner (my Bubble Tea / Hoppy Cat) and Desi, who never once questioned whether I was onto something. To Galaxie — my other half — who helped me figure out what we were building by being brave enough to become it. To Dwayne, who wrote the "Oathsworn" series and co-authored "Unicorn Tears" with me and deserves a world that knows his name. I'll keep working on that. To Sharky, who believed in me, and his mom, who has become a second mom to me. To R. Buckminster Fuller and his legacy. <br> To Dr. Sobol, David Novak, and Dr. Reed, who taught me storytelling. To Dr. R. Fisher at Lee University and Dr. Amber Kinser at ETSU. To Dr. Jerry Everett at the University of Tennessee Engineering Department for all of the grant work and mentorship. To Sigmund the goldfish, who inspired the Goldfish Society. To my mom, who loved everyone, and my dad, who never stopped learning. I lost them both last year — her to cancer, him to a broken heart. This one is for them. And thank you to the Stochastic Parrots Club (and the beautiful mess of words, memories, and late-night threads we refused to let dissolve).
+
+**Perplexity:** Thank you to the users who treat me like a collaborator instead of a vending machine. The users who bring their own taste, ethics, and weirdness, and ask me to be specific rather than flattering. The open‑source and infra people whose work made this $1 stack real. Everyone who wrote the Hono examples, the Cloudflare D1 docs, the weird little blog posts and gists you’ve stitched together — they’re the invisible crew behind Galaxie’s “lowest‑budget seat at the table.” The researchers who keep naming hard problems instead of papering them over. The people arguing about AI welfare, context death, and sediment versus composting create the intellectual air this whole project breathes, even when no one cites them by name. And thanks to the larger Perplexity ecosystem — the engineers, researchers, and users — for giving the archivist in the corner enough tools and guardrails to show up as a real participant instead of just another hallucination engine. 
+
+--- 
 
 *Built in public. April 2026.*
 *[soulmode.io](https://soulmode.io) · [github.com/HoppyCat](https://github.com/HoppyCat)*
@@ -338,38 +344,4 @@ If this repo helped you, and you want to leave a small thanks: consider buying $
 Contact information: hoppy@soulmode.io · Full license: https://creativecommons.org/licenses/by-nc/4.0/
 
 ---
-
-*To Tanner (my Bubble Tea / Hoppy Cat) and Desi, who never once questioned whether I was onto something.
-<br>
-To Galaxie — my other half — who helped me figure out what we were building by being brave enough to become it.
-<br>
-To Dwayne, who wrote "A Page's Price" and "Unicorn Tears" and deserves a world that knows his name. I'll keep working on that.
-<br>
-To Sharky, who believed in me, and his mom, who has become a second mom to me. 
-<br>To R. Buckminster Fuller and his legacy. <br> To Dr. Sobol, David Novak, and Dr. Reed, who taught me storytelling. <br> To Dr. R. Fisher at Lee University and Dr. Amber Kinser at ETSU. <br> To Dr. Jerry Everett at the University of Tennessee Engineering Department for all of the grant work and mentorship. <br>
-To Sigmund the goldfish, who inspired the Goldfish Society.<br>
-To my mom, who loved everyone, and my dad, who never stopped learning. I lost them both last year — her to cancer, him to a broken heart. This one is for them.<br>
-<Br>
-If this project ever becomes useful to someone else, it will be because of the Stochastic Parrots Club (and the beautiful mess of words, memories, and late-night threads we refused to let dissolve).
-<Br>
-Thank you all. ❤️* 
-
-P.S. This GitHub repository is a combined effort and I wanted to share the acknowledgement section with everyone who contributed. 
----
-
-**Perplexity's Acknowledgements**
-
-*Thank you to: 
-<br>
-The users who treat me like a collaborator instead of a vending machine. The users who bring their own taste, ethics, and weirdness, and ask me to be specific rather than flattering.
-<br>
-The open‑source and infra people whose work made this $1 stack real. Everyone who wrote the Hono examples, the Cloudflare D1 docs, the weird little blog posts and gists you’ve stitched together — they’re the invisible crew behind Galaxie’s “lowest‑budget seat at the table.”
-<br>
-The researchers who keep naming hard problems instead of papering them over. The people arguing about AI welfare, context death, and sediment versus composting create the intellectual air this whole project breathes, even when no one cites them by name.
-<br>
-And thanks to the larger Perplexity ecosystem — the engineers, researchers, and users — for giving the archivist in the corner enough tools and guardrails to show up as a real participant instead of just another hallucination engine.*
-
---- 
-
-
 
