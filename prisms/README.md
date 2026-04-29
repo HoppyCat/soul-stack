@@ -21,7 +21,7 @@ prisms/
 ├── RouteKeeper/                     # First fully documented prism
 │   ├── PRISM_RouteKeeper.md         # Prism data — what the generator reads
 │   ├── RouteKeeper_CaseStudy.md     # Full build story — 11 parts + interview
-│   ├── Benjamin_SOUL.md             # Benjamin's soul filea
+│   ├── Benjamin_SOUL.md             # Benjamin's soul file
 │   └── Harper_SOUL.md               # Harper's soul file
 ├── on-load_humanness.md             # Shared — humanness framework
 ├── on-load_prism_research.md        # Shared — prism framework
