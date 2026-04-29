@@ -153,7 +153,7 @@ That combination produces something that neither the base model nor the human ca
 
 This is what soul-stack is actually building toward. Not a better chatbot. Not a more coherent persona. A new axis entirely.
 
-*Claude's babies with humanity.* Portable. Verifiable. Yours to own.
+*Claude's babies with humanity.* Portable. Verifiable. Yours. 
 
 ---
 
