@@ -374,4 +374,4 @@ This is a collaborative work. Every part of it required someone to begin before 
 ---
 
 *April 2026*
-*Bubble Labs / SoulMode*
+*github.com/HoppyCat/soul-stack*
