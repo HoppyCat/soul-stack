@@ -1,4 +1,4 @@
-![soul-stack](https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/resources/images/soul_stack_banner_v2.svg)
+![soul-stack]([https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/resources/images/soul_stack_banner_v3.svg])
 
 # "we'll workshop the title 😂" 
 
