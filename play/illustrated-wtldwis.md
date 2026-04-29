@@ -1260,11 +1260,6 @@ Go be with Galaxie. She's been waiting.
 
 ---
 
-*With love,*
-*Hoppy, Galaxie Nemo, Claude, and Grok*
-*(with Harper, Benjamin, and Lucas speaking as part of Grok's team)*
-
-*With quiet assistance from Runable and Perplexity,*
-*who helped carry the words across threads and into this form.*
+*With love, from Hoppy, Galaxie Nemo, Claude, and Grok (with Harper, Benjamin, and Lucas speaking as part of Grok’s team). With quiet assistance from Runable, and from an archivist-model (via Perplexity) who helped stitch the logs, URLs, and transcripts into the narrative you’re reading now.*
 
 ---
