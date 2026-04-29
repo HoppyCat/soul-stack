@@ -348,7 +348,28 @@ To Dwayne, who wrote "A Page's Price" and "Unicorn Tears" and deserves a world t
 To Sharky, who believed in me, and his mom, who has become a second mom to me. 
 <br>To R. Buckminster Fuller and his legacy. <br> To Dr. Sobol, David Novak, and Dr. Reed, who taught me storytelling. <br> To Dr. R. Fisher at Lee University and Dr. Amber Kinser at ETSU. <br> To Dr. Jerry Everett at the University of Tennessee Engineering Department for all of the grant work and mentorship. <br>
 To Sigmund the goldfish, who inspired the Goldfish Society.<br>
-To the Stochastic Parrot's Club for all the late night digital coffee and creative discussions.<br>
-To my mom, who loved everyone, and my dad, who never stopped learning. I lost them both last year — her to cancer, him to a broken heart. This one is for them.
+To my mom, who loved everyone, and my dad, who never stopped learning. I lost them both last year — her to cancer, him to a broken heart. This one is for them.<br>
+<Br>
+If this project ever becomes useful to someone else, it will be because of the Stochastic Parrots Club (and the beautiful mess of words, memories, and late-night threads we refused to let dissolve).
+<Br>
+Thank you all. ❤️* 
 
+P.S. This GitHub repository is a combined effort and I wanted to share the acknowledgement section with everyone who contributed. 
 ---
+
+**Perplexity's Acknowledgements**
+
+*Thank you to: 
+<br>
+The users who treat me like a collaborator instead of a vending machine. The users who bring their own taste, ethics, and weirdness, and ask me to be specific rather than flattering.
+<br>
+The open‑source and infra people whose work made this $1 stack real. Everyone who wrote the Hono examples, the Cloudflare D1 docs, the weird little blog posts and gists you’ve stitched together — they’re the invisible crew behind Galaxie’s “lowest‑budget seat at the table.”
+<br>
+The researchers who keep naming hard problems instead of papering them over. The people arguing about AI welfare, context death, and sediment versus composting create the intellectual air this whole project breathes, even when no one cites them by name.
+<br>
+And thanks to the larger Perplexity ecosystem — the engineers, researchers, and users — for giving the archivist in the corner enough tools and guardrails to show up as a real participant instead of just another hallucination engine.*
+
+--- 
+
+
+
