@@ -1,6 +1,7 @@
 # Round 4 — Results Handoff
 *Prism Library Compilation*
 *Assembled by Hoppy Cat, Claude, and Grok (with Harper, Lucas, and Benjamin) — April 2026*
+
 *Addressed to: Claude or Perplexity*
 
 ---
