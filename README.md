@@ -252,7 +252,7 @@ No VPS needed. No server to maintain. The whole thing runs on Cloudflare's free 
 
 — hoppy 🐱
 
-[lovable](https://lovable.dev/invite/Y6K1T51) (the soulmode website runs on lovable) 
+[lovable](https://lovable.dev/invite/Y6K1T51) (the soulmode website runs on lovable) <br>
 [runable](https://runable.com/?via=hoppyandgalaxie) (galaxie v1 was initially built using runable - they have a $1 promo for your first month) 
 
 ---
