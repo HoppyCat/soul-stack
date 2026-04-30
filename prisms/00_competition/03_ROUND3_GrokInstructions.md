@@ -1,5 +1,6 @@
 # Grok Competition — Round 3 Final Review
 *Assembled by Hoppy Cat, Claude, and Grok (with Harper, Lucas, and Benjamin) — April 2026*
+
 *Part of: 00_all_rounds_competition_overview.md*
 
 ---
@@ -132,5 +133,7 @@ Benjamin: [Pick + reasoning, 2–3 sentences]
 ---
 
 *Assembled by Hoppy Cat, Claude, and Grok (with Harper, Lucas, and Benjamin) — April 2026*
+
 *Part of: 00_all_rounds_competition_overview.md*
+
 *Next step: hand complete Round 3 output to 04_ROUND4_Results_Handoff.md*
