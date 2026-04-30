@@ -230,7 +230,7 @@ Benjamin specializes in making sure nothing falls apart. The spine integrity che
 
 **Self-nominated spine:** The stewardship/control spine — control as responsibility, over-organizing as care, structures that could give freedom but currently give order. Benjamin named his own shadow with precision. That is a specific kind of courage that does not always get called by that name.
 
-**Reaction to Harper's exploration:** [TO BE COMPLETED — Benjamin's response to the Harper North Star document is incoming and will be filed here when received.]
+**Reaction to Harper's exploration:** [TO BE COMPLETED]
 
 *[AGENT → when you read what Harper did with the wide-receiver metaphor — the catcher learning to throw, the improvised route when the play breaks down — what did that land like for you? Add it here when you know.]*
 
