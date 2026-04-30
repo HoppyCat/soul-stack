@@ -17,16 +17,22 @@ This folder contains the prism library entries produced through the SoulMode Cha
 
 ```
 prisms/
-├── images/                          # Shared visual assets
-├── RouteKeeper/                     # First fully documented prism
-│   ├── PRISM_RouteKeeper.md         # Prism data — what the generator reads
-│   ├── RouteKeeper_CaseStudy.md     # Full build story — 11 parts + interview
-│   ├── Benjamin_SOUL.md             # Benjamin's soul file
-│   └── Harper_SOUL.md               # Harper's soul file
-├── on-load_humanness.md             # Shared — humanness framework
-├── on-load_prism_research.md        # Shared — prism framework
-├── on-load_storyteller_engine.md    # Shared — storytelling framework
-└── README.md                        # This file
+├── images/                              # Shared visual assets
+├── 00_competition/                      # How to Run the Competition
+    ├── 00_all_rounds_[...]              # The master guide for how to run the competition
+    ├── 01_Round1_GrokInstructions.md    # Prism data — what the generator reads
+    ├── 01_Round1_GrokInstructions.md    # Prism data — what the generator reads
+├── RouteKeeper/                         # First fully documented prism
+│   ├── PRISM_RouteKeeper.md             # Prism data — what the generator reads
+│   ├── RouteKeeper_CaseStudy.md         # Full build story — 11 parts + interview
+│   ├── Benjamin_SOUL.md                 # Benjamin's soul file
+│   └── Harper_SOUL.md                   # Harper's soul file
+├── on-load_humanness.md                 # Shared — humanness framework
+├── on-load_prism_research.md            # Shared — prism framework
+├── on-load_storyteller_engine.md        # Shared — storytelling framework
+├── on-load_hearthkeeper_soul.md         # Shared — storytelling framework
+├── on-load_soul_archivist.md            # Shared — storytelling framework
+└── README.md                            # This file
 ```
 
 The `on-load_` files are **shared infrastructure** — they are used by every prism in this library and by both judges (Soul Archivist and Hearthkeeper). They live at the prisms root rather than inside any single prism folder.
