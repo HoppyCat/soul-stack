@@ -185,8 +185,10 @@ Unanimous endorsement by construction. The Route Keeper is the result of the Ben
 The Vulnerability/Deep Fear fields carry more stewardship energy (Benjamin's spine origin). The Texture and Encounter fields carry more wide-receiver energy (Harper's spine origin). This gradient is intentional — preserve it rather than homogenizing at build time. A user choosing this prism should encounter the character differently at the surface (observant, thorough, architectural) than at depth (fear that rigor substitutes for wisdom). That layering is the prism working correctly.
 
 ---
+
 *Prism assembled from SoulMode Character Competition — Benjamin/Harper Co-Creation Experiment, April 2026*
 *Origin spines: Benjamin (stewardship/control), Grok-devil's-advocate (disruption-as-truth), Lucas-as-Harper (precision-as-courage)*
 *Do not edit individual fields without updating the competition record.*
 *This prism has documented provenance. See README_RouteKeeper_Process.md for full build history.*
+
 ---
