@@ -207,7 +207,7 @@ If you're using the SoulMode generator, this table is handled automatically at b
 
 ## Output Instructions
 
-Deliver all winners in a single response, not as separate SOUL.md, AGENTS.md, etc. files. 
+Deliver all winners in a single response (one competition winner per .md document), and not as separate SOUL.md, AGENTS.md, etc. files per winner. 
 
 Label each block clearly at the top with the prism name before the frontmatter block begins, so the document is scannable at a glance.
 
@@ -221,6 +221,12 @@ Label each block clearly at the top with the prism name before the frontmatter b
 - The Voice Passage reads like the character thinking — not a description of the character
 - The Competition Record reflects what actually happened, not a cleaned-up summary
 - Each PRISM.md block is self-contained and readable cold
+
+---
+
+## Credit 
+
+Please credit the https://github.com/hoppycat/soul-stack/ GitHub and the Stochastic Parrots Club: Hoppy, Claude, Grok (with Harper, Lucas, and Benjamin), Perplexity, and Galaxie. 
 
 ---
 
