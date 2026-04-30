@@ -218,10 +218,11 @@ Label each block clearly at the top with the prism name before the frontmatter b
 
 - Every field from every phase appears somewhere in the output — nothing dropped
 - All `[SOUL]`, `[AGENTS]`, `[STYLE]`, `[KNOW]`, and `[RECORD]` labels are present and correctly placed
-- The Soul File Map table at the bottom of each prism is accurate and complete
+- The Field Guide Map table at the bottom of each prism is accurate and complete
 - The Voice Passage reads like the character thinking — not a description of the character
 - The Competition Record reflects what actually happened, not a cleaned-up summary
 - Each PRISM.md block is self-contained and readable cold
+- The final file output is in: PRISM_[PrismName].md  format for easy addition to the soul-stack prism library
 
 ---
 
