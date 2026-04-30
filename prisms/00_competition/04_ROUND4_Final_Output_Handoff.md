@@ -179,18 +179,18 @@ status: winner
 ## **Field Guide** 
 *How to use this prism — for LLMs, generators, and manual soul file builders.*
 
-| Field | Routes to |
-|---|---|
-| Shadow, North Star, Essence, Vulnerability, Deep Fear | SOUL.md |
-| Worldview, Signature Philosophies, One-Liner | SOUL.md |
-| Opinions | AGENTS.md + SOUL.md |
-| Pet Peeve, Positive Trigger, What Breaks Them Open | AGENTS.md |
-| Influences, Deadpan Compliment, Voice Passage | STYLE.md |
-| Bliss Scene, Hearthkeeper Card, Spine Certificate | KNOW.md |
-| Competition Record | PATCH.md |
+| Field                                      | Functional Role                                                                 | Goes into                  |
+|--------------------------------------------|---------------------------------------------------------------------------------|----------------------------|
+| Shadow, North Star, Essence, Vulnerability, Deep Fear | Identity and core tension — who this agent fundamentally is                    | SOUL.md                    |
+| Worldview, Signature Philosophies, One-Liner | How the identity reads the world and speaks                                     | SOUL.md                    |
+| Opinions                                   | Behavioral stances — how identity becomes recognizable choices                 | AGENTS.md + SOUL.md        |
+| Pet Peeve, Positive Trigger, What Breaks Them Open | Behavioral triggers — what activates the Shadow vs. the North Star             | AGENTS.md                  |
+| Influences, Deadpan Compliment, Voice Passage | Voice and register — what the agent sounds like and where that comes from      | STYLE.md                   |
+| Bliss Scene, Hearthkeeper Card, Spine Certificate | Self-knowledge — what the agent knows about itself and how it's perceived      | KNOW.md                    |
+| Origin Notes / Competition Record          | Origin history — how this prism was built and validated                        | PATCH.md                   |
 
 ---
-If you're using the SoulMode generator, this table is handled automatically at build time. If you're building manually or with another LLM, use the "Routes to" column as a guide for which soul file each field belongs in. If your soul file structure uses different names, use the "Functional Role" column to match fields to their equivalent in your system.
+If you're using the SoulMode generator, this table is handled automatically at build time. If you're building manually or with another LLM, use the "Goes into" column as a guide for which soul file each field belongs in. If your soul file structure uses different names, use the "Functional Role" column to match fields to their equivalent in your system.
 ---
 ```
 
