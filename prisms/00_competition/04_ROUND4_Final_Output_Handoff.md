@@ -190,9 +190,8 @@ status: winner
 | Origin Notes / Competition Record          | Origin history — how this prism was built and validated                           | PATCH.md  |
 
 ---
+
 If you're using the SoulMode generator, this table is handled automatically at build time. If you're building manually or with another LLM, use the "Goes into" column as a guide for which soul file each field belongs in. If your soul file structure uses different names, use the "Functional Role" column to match fields to their equivalent in your system.
----
-```
 
 ---
 
