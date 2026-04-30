@@ -207,7 +207,7 @@ If you're using the SoulMode generator, this table is handled automatically at b
 
 ## Output Instructions
 
-Produce one complete PRISM.md block per winner, separated by a horizontal rule between winners. Deliver all winners in a single response — do not split across multiple messages.
+Deliver all winners in a single response, not as separate SOUL.md, AGENTS.md, etc. files. 
 
 Label each block clearly at the top with the prism name before the frontmatter block begins, so the document is scannable at a glance.
 
