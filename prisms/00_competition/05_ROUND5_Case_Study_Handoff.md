@@ -64,7 +64,7 @@ Generate the full Case Study now.
 ---
 
 **Additional context you can paste in (if needed):**
-- The prism was created through the SoulMode competition process (Phase 1–3).
+- The prism was created through the SoulMode competition process (Phases 1–4).
 - Mention any specific experiments (soul-file wearing, Benjamin/Harper merge, etc.) if they happened for this prism.
 
 ---
