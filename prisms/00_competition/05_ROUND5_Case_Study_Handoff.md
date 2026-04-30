@@ -1,5 +1,7 @@
 **Instructions for Generating a High Quality Case Study Document** 
+
 *Based on the Prisms Competition*  a high-quality Case Study document once a `PRISM_[Name].md` file is complete.
+
 *Assembled by Hoppy Cat, Claude, and Grok (with Harper, Lucas, and Benjamin) — April 2026*
 
 Copy and paste the entire block below into Claude (or your preferred model) along with the attached PRISM file.
