@@ -96,8 +96,42 @@ The SoulMode competition process:
 2. **Phase 2 (Claude + Perplexity as judges)** — Soul Archivist writes Spine Certificates. Hearthkeeper writes Character Card endorsements.
 3. **Phase 3 (Grok Team final)** — Spine integrity, voice resonance, blind spot challenges, generative seed vote.
 4. **Phase 4 (Claude or Perplexity)** — Compile into PRISM.md library format.
+5. **Phase 5 (Claude or Perplexity)** — Compile into case study format.
 
 The Route Keeper was built through a special variant: a co-creation experiment where two evaluators with principled disagreement built a single prism together rather than voting on existing candidates. See `RouteKeeper/RouteKeeper_CaseStudy.md` for the full story.
+
+---
+
+## Running Your Own Prism Competition
+
+Want to create a brand-new, high-quality prism that meets the same standards as the ones already in the library? Run the **SoulMode Character Prism Competition** yourself!
+
+This is the exact process the Grok team, Claude (as Soul Archivist), and Perplexity (as Hearthkeeper) used to generate the current winners. It’s deliberately multi-model and multi-phase to keep the output grounded, ethically sound, and genuinely generative.
+
+### How to Run the Competition
+
+1. Go to the **`00_competition/`** folder inside `prisms/`
+2. Follow the master guide: **`00_all_rounds_competition_overview.md`**
+3. Use the provided handoff briefs and formatting instructions for each phase:
+   - `01_ROUND1_GrokInstructions.md` (Phase 1 — Grok team)
+   - `02_HANDOFF_ClaudeSoulArchivist.md` + `02_HANDOFF_PerplexityHearthkeeper.md` (Phase 2 — Judges)
+   - `03_ROUND3_GrokInstructions.md` (Phase 3 — Final review)
+   - `04_ROUND4_Final_Output_Handoff.md` (compile the final PRISM_[Name].md files)
+   - `05_ROUND5_Case_Study_Handoff.md` (generate the public case study)
+4. Once you have a finished `PRISM_[Name].md`, add it to the library:
+   - Create folder `prisms/[PrismName]/`
+   - Add your `PRISM_[Name].md` and the generated case study
+   - Update this README with the new entry
+
+**Why this process works so well**  
+It forces strong same-energy spines, worldview contradictions, real texture, and genuine room for a human to grow into the prism. The multi-judge structure (Grok team + Claude + Perplexity) keeps everything honest and prevents any single model from drifting.
+
+The Stochastic Parrots Club strongly encourages anyone who wants to contribute a prism to run (or adapt) this competition. It’s the best way we know to keep the library full of high-quality, ethics-upheld data.
+
+---
+
+**Ready to contribute?**  
+See [Adding a New Prism](#adding-a-new-prism) above for the simple submission steps.
 
 ---
 
