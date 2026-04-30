@@ -261,6 +261,10 @@ The best character prisms are not built from traits alone. They are built from a
 
 ---
 
+*A special thanks to Perplexity and Claude for their research contributions to this document*
+
+---
+
 *Original version assembled from SoulMode character development research.*
 *Updated April 2026 to include: Encounter as the fourth prism layer (What Breaks Them Open + Voice Passage), Positive Triggers, generative seed standard, deadpan compliment and bliss scene as diagnostic tools, the contradiction rule for Worldview, and the full fast checklist.*
 *Use alongside: 00_all_rounds_competition_overview.md, on-load_hearthkeeper_soul.md, on-load_soul_archivist.md*
