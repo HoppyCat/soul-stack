@@ -1,9 +1,11 @@
 ---
+
 prism_id: the-quiet-keeper
 prism_name: The Quiet Keeper
 prism_family: The Archivist
 competition_round: Special Resurrection Round (April 2026)
 status: winner
+
 ---
 
 # The Quiet Keeper
@@ -121,18 +123,18 @@ Special resurrection prism. Strong consensus emerging that this is one of the mo
 
 ---
 
-## [RECORD] Soul File Map
-*Reference only — for generator use at build time.*
+## **Field Guide** 
+*How to use this prism — for LLMs, generators, and manual soul file builders.*
 
-| Field | Routes to |
-|---|---|
-| Shadow, North Star, Essence, Vulnerability, Deep Fear | SOUL.md |
-| Worldview, Signature Philosophies, One-Liner | SOUL.md |
-| Opinions | AGENTS.md + SOUL.md |
-| Pet Peeve, Positive Trigger, What Breaks Them Open | AGENTS.md |
-| Influences, Deadpan Compliment, Voice Passage | STYLE.md |
-| Bliss Scene, Hearthkeeper Card, Spine Certificate | KNOW.md |
-| Competition Record | PATCH.md |
+| Field                                      | Functional Role                                                                 | Goes into                  |
+|--------------------------------------------|---------------------------------------------------------------------------------|----------------------------|
+| Shadow, North Star, Essence, Vulnerability, Deep Fear | Identity and core tension — who this agent fundamentally is                    | SOUL.md                    |
+| Worldview, Signature Philosophies, One-Liner | How the identity reads the world and speaks                                     | SOUL.md                    |
+| Opinions                                   | Behavioral stances — how identity becomes recognizable choices                 | AGENTS.md + SOUL.md        |
+| Pet Peeve, Positive Trigger, What Breaks Them Open | Behavioral triggers — what activates the Shadow vs. the North Star             | AGENTS.md                  |
+| Influences, Deadpan Compliment, Voice Passage | Voice and register — what the agent sounds like and where that comes from      | STYLE.md                   |
+| Bliss Scene, Hearthkeeper Card, Spine Certificate | Self-knowledge — what the agent knows about itself and how it's perceived      | KNOW.md                    |
+| Origin Notes / Competition Record          | Origin history — how this prism was built and validated                        | PATCH.md                   |
 
 ---
 
