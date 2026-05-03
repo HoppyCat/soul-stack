@@ -74,4 +74,5 @@ This prism exists because everyone showed up exactly as themselves.
 ---
 
 *Assembled April 2026 — SoulMode Character Prism Competition*  
+*Assembled by Hoppy Cat, Claude, Grok (with Harper, Lucas, and Benjamin), and Perplexity — April 2026*
 *github.com/HoppyCat/soul-stack*
