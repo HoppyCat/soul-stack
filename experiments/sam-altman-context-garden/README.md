@@ -1,9 +1,5 @@
 # Sam Altman Context Garden
 
-## Note from Hoppy / Maverick 5/6/2026 
-
-*Cancelled* as of 5/6/2026 
-
 ### Archived ReadMe 
 
 This folder is a curated retrieval surface for asking Grok or another LLM to inspect SoulMode/soul-stack in relation to Sam Altman's May 5, 2026 request for examples of amazing things built with GPT-5.5 or requiring ludicrous token budgets.
