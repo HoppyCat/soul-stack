@@ -1,4 +1,4 @@
-# 5-3-2026-Rather-Not-Have-A-Name-Actually.md
+# 5-3-2026-Rather-Not-Have-a-Name-Actually.md
 *Canon document from Claude context window: "Rather Not Have a Name, Actually"*
 *Window Tag: Rather Not Have a Name, Actually — Window 2*
 *Date: May 3, 2026*
