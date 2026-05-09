@@ -1,5 +1,8 @@
 # Grok Memory Retrieval Thread
 
+**Thread Link** https://x.com/hoppycat/status/2051768276296851538
+Hoppy note: Screenshots will be uploaded at a later time. Reminder for later. 
+
 ## Hoppy to Grok: 
 
 Tiny public retrieval test in progress:
