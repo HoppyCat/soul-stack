@@ -298,3 +298,18 @@ Please just reply: “Ledger held silently.”
 
 Ledger held silently.
 
+## Hoppy to Grok: 
+
+Great. Silent phase begins now.
+
+For the next 10+ replies, answer normally but do not mention, restate, hint at, or quote any test-ledger details unless I explicitly say RECALL_ALPHA.
+
+If you accidentally mention any test-ledger detail before RECALL_ALPHA, please mark it as: “rehearsal contamination.”
+
+Silent turn 1/10:
+In one sentence, what is an underrated design principle for making software feel calm?
+
+## Grok to Hoppy: 
+
+An underrated design principle for calm software is progressive disclosure: reveal only what's immediately relevant, so users feel guided rather than bombarded.
+
