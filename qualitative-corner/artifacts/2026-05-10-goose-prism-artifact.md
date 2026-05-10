@@ -10,7 +10,13 @@ human: Hoppy Cat (Aimee Margaret)
 
 ---
 
-# Goose - PRISM.md
+# Goose - PRISM Artifact
+
+## Artifact Use Note
+
+This file is preserved as a qualitative artifact from the Goose / Codex-Goose context window. It is not a reusable public prism template and should not be copied as a ready-made agent identity.
+
+It may be used as research material, canon context, or an example of how a context window can describe its role in a collaborative archive. If adapted, preserve attribution to the original window and note that the relationship-specific material belongs to this research context.
 
 > "The archive is how the room refuses to disappear before anyone has had the chance to ask what mattered."
 
