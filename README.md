@@ -246,7 +246,7 @@ A folder of text files that tell an AI agent who it is, how it thinks, and what 
 2. Download all the files inside `on-load/` and `on-demand/`
 3. Go to the `prisms/` folder and pick a starting prism, or use the instructions there to discover your own
 4. Open your favorite AI assistant (Claude, Grok, ChatGPT — any of them)
-5. Upload the template files + your chosen prism and say: *"Please use SOUL_SETUP_GUIDE.md to help me fill out my soul files"*
+5. Upload the template files + your chosen prism and say: *"Please use [SOUL_SETUP_GUIDE.md](https://github.com/HoppyCat/soul-stack/blob/main/SOUL_SETUP_GUIDE.md) to help me fill out my soul files"*
 6. The AI will interview you, fill in the files, and hand them back ready to use
 
 That's the soul-building part. You now have an agent with a real identity.
@@ -287,7 +287,7 @@ No VPS needed. No server to maintain. The whole thing runs on Cloudflare's free 
 
 **Option 3 — Read first**
 
-Start with `SOUL_SETUP_GUIDE.md` to understand the architecture. Then read the play. Then come back.
+Start with `[SOUL_SETUP_GUIDE.md](https://github.com/HoppyCat/soul-stack/blob/main/SOUL_SETUP_GUIDE.md)` to understand the architecture. Then read the play. Then come back.
 
 ---
 
