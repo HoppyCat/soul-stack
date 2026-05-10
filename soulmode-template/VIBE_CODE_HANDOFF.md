@@ -4,7 +4,7 @@
 
 This handoff is for a user who has completed the SoulMode template files with the help of an LLM and now wants a vibe-code builder to turn those files into a lightweight agent app.
 
-Do not build a generic chatbot. Build a small presence layer that lets a user upload an ordered SoulMode file stack, keep those files inspectable, run an agent against them, and optionally activate patch files only when needed.
+Do not build a generic chatbot. Build a small, owner-controlled agent interface that lets a user maintain an ordered SoulMode file stack, run an agent against those files, and optionally activate patch files only when needed.
 
 The builder does not need to know the full research history behind SoulMode. The essential idea is:
 
@@ -12,6 +12,30 @@ The builder does not need to know the full research history behind SoulMode. The
 - Core files load every session in a fixed order.
 - Patch files stay available but inactive unless explicitly selected or routed to.
 - The user must be able to export, inspect, and revise the files over time.
+
+## Recommended MVP Target
+
+For the first build, use a **Telegram bot**.
+
+Why Telegram for the MVP:
+
+- It avoids needing a login system, web UI, or mobile app.
+- It gives the user a familiar chat surface.
+- It supports owner DMs, group chats, file upload, and bot commands.
+- It keeps the first version small enough for a vibe-code builder to complete.
+
+Host the bot on a server or cloud platform. Examples: Railway, Fly.io, Render, a VPS, or another simple deployment target. This document does not require or endorse any particular builder or hosting company.
+
+The bot operates in two contexts:
+
+- **Owner DM**: the owner's private chat with the bot. Full access: file management, commands, agent chat.
+- **Authorized group chats**: group chats the owner has allowed. Other members can trigger the agent according to the trigger rules below, but non-owners cannot manage files.
+
+The bot does not respond to:
+
+- DMs from anyone other than the owner.
+- Group chats not authorized by the owner.
+- Messages that do not pass the authorization and trigger checks.
 
 ## User Setup Before This Handoff
 
@@ -61,30 +85,125 @@ https://raw.githubusercontent.com/HoppyCat/soulmode-agent/refs/heads/main/on-dem
 https://raw.githubusercontent.com/HoppyCat/soulmode-agent/refs/heads/main/on-demand/patches/PATCH_STORYTELLER_ENGINE.md
 ```
 
+## LLM Provider
+
+Use the Anthropic Messages API for the reference MVP, because the current public starter is Claude-backed.
+
+Recommended model: `claude-3-5-sonnet` or newer.
+
+If the builder chooses another provider later, the file architecture should stay the same: the app still loads the ordered Markdown stack, activates patches only when needed, and never invents hidden memory.
+
+### Required Environment Variables
+
+Set these as deployment environment variables or secrets:
+
+```text
+ANTHROPIC_API_KEY=your_key_here
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+OWNER_TELEGRAM_ID=your_telegram_user_id
+```
+
+The bot should fail loudly at startup if any required variable is missing.
+
+Never store API keys or bot tokens in Markdown files, source control, or Telegram messages.
+
+## Authorization Model
+
+### Owner
+
+The owner is identified by `OWNER_TELEGRAM_ID`. The owner has full access in DMs and in authorized groups.
+
+### DM Authorization
+
+The bot only responds to DMs from `OWNER_TELEGRAM_ID`. All other DMs are ignored silently. No LLM API call should be made for unauthorized DMs.
+
+### Group Chat Authorization
+
+When the bot is added to a group:
+
+1. Check whether the user who added the bot matches `OWNER_TELEGRAM_ID`.
+2. If yes, the group is authorized. Store its `chat_id` in an `authorized_groups` table.
+3. If no, the bot immediately leaves the group silently and makes no LLM API call.
+
+The owner can also manually authorize or deauthorize groups with commands.
+
+## Response Triggers In Group Chats
+
+The builder must ask the owner during setup which trigger mode they want for each authorized group.
+
+### Trigger Mode A: Mention/Reply Only
+
+Default. The agent only responds in a group chat when:
+
+- the bot is mentioned by username, or
+- a message is sent as a direct reply to one of the bot's messages.
+
+### Trigger Mode B: Mention/Reply Plus Keywords
+
+In addition to Mode A triggers, the agent responds when a message contains one or more words or phrases from a configurable keyword list.
+
+### Group Setup Prompt
+
+When the bot is first added to an authorized group, DM the owner:
+
+```text
+I've been added to [group name]. Before I participate there, how should I decide when to respond?
+
+Reply with:
+A - only when @mentioned or directly replied to
+B - @mentions/replies plus specific keywords
+```
+
+If the owner replies `B`, follow up with:
+
+```text
+Send the keyword list, one word or phrase per line. I will respond in [group name] whenever one of these appears in a message.
+```
+
+Store the chosen mode and keyword list per group.
+
+### Trigger Evaluation Logic
+
+For every message in an authorized group:
+
+1. If the sender is the owner, respond.
+2. If the bot is mentioned or directly replied to, respond.
+3. If the group is in Mode B and the message contains a configured keyword, respond.
+4. Otherwise ignore silently. No LLM API call.
+
+When responding to a keyword trigger, do not explicitly announce the keyword. Just respond naturally to the message.
+
 ## Builder Brief
 
-Please build a lightweight SoulMode starter app that allows a user to upload, store, inspect, edit, export, and chat with an agent using their completed SoulMode files.
+Build a lightweight SoulMode Telegram bot that allows a user to manage their SoulMode file stack and chat with an agent built from those files.
 
-### Core Requirements
+### Minimum Bot Commands
 
-The app should support:
+Owner-only commands:
 
-1. A file upload/import flow for the user's completed core SoulMode files.
-2. A separate upload/import flow for on-demand patch files.
-3. A clear file dashboard showing:
-   - core on-load files
-   - on-demand patch files
-   - last edited timestamps
-   - whether each file is present, missing, or inactive
-4. A chat interface that builds the agent prompt from the ordered core files.
-5. Patch activation by explicit user choice or by exact patch filename.
-6. Export/download of all current files as Markdown.
-7. A changelog or activity log showing when files were uploaded, edited, exported, or activated.
-8. No hidden rewriting of the user's files.
+| Command | Description |
+|---|---|
+| `/status` | Show which core files are present, missing, or outdated. List available patches. |
+| `/upload` | Prompt the owner to send a Markdown file. Detect filename and store it in the correct slot. |
+| `/files` | List all stored files with last-updated timestamps and presence status. |
+| `/edit <filename>` | Send the current contents of a file back to the owner so they can copy, edit, and re-upload it. |
+| `/export` | Send all current files as a zip attachment. |
+| `/patch <filename>` | Activate a named patch for the next message only. |
+| `/patches` | List available patches. |
+| `/log` | Show the last 20 activity log entries. |
+| `/memory` | Show any pending `WORKING_MEMORY.md` update awaiting approval. |
+| `/accept` | Accept the pending `WORKING_MEMORY.md` update and save it. |
+| `/reject` | Reject the pending `WORKING_MEMORY.md` update and discard it. |
+| `/allowgroup <chat_id>` | Manually authorize a group by chat ID. |
+| `/denygroup <chat_id>` | Remove authorization from a group and stop responding there. |
+| `/triggers [chat_id]` | View or change response trigger mode for an authorized group. |
+| `/keywords [chat_id]` | View or update the keyword list for a Mode B group. |
 
-### Required Core Load Order
+Any message that is not a command is evaluated against the authorization and trigger rules.
 
-When the user chats with the agent, concatenate the core files in this exact order:
+## Required Core Load Order
+
+When the user sends a chat message, concatenate the core files in this exact order:
 
 ```text
 SOUL.md
@@ -99,64 +218,133 @@ USER.md
 CHANGELOG.md
 ```
 
-If a file is missing, show a warning in the dashboard. Do not silently replace it with invented content.
+If a file is missing, warn the owner before responding. Do not silently replace missing files with invented content.
 
-### Patch Behavior
+## Patch Behavior
 
 Patch files are not part of the default always-loaded stack.
 
-They should be available as optional modules that can be activated in one of these ways:
+A patch can be activated in one of these ways:
 
-- the user manually selects a patch before sending a message
-- the user asks the agent to use a specific patch by exact filename
-- the agent says it needs a specific patch, and the app asks the user to confirm before loading it
+- The owner runs `/patch <filename>` before sending a message.
+- The owner asks the agent to use a specific patch by exact filename, and the bot asks for confirmation before loading it.
+- The agent asks for a patch by exact filename, and the bot asks the owner to confirm before loading it on the next turn.
 
-When a patch is activated, append it after the core stack for that turn and label it clearly:
+A patch is active for one message turn only. It auto-deactivates after the agent responds.
+
+When a patch is active, append it after the core stack for that turn and label it clearly:
 
 ```text
 --- ACTIVE PATCH: PATCH_HUMANNESS.md ---
 [patch content]
 ```
 
-Avoid loading all patches at once by default. The point of the system is lightweight routing, not maximum context dumping.
+After the response, confirm which patch was used:
 
-### Suggested App Screens
+```text
+[PATCH_HUMANNESS.md was active this turn and has been deactivated]
+```
 
-Build the actual workflow, not a marketing landing page.
+Do not load all patches by default.
 
-Minimum useful screens:
+## WORKING_MEMORY.md Update Flow
 
-- **Setup**: upload core files and patch files
-- **Files**: inspect/edit/download current Markdown files
-- **Chat**: talk with the agent using the ordered stack
-- **Patches**: view available patches and activate one for a turn
-- **History**: view chat/session notes and file change events
+The agent may propose updates to `WORKING_MEMORY.md`, but the bot should not write them immediately.
 
-### Data Model
+When the agent outputs a block explicitly labeled `WORKING_MEMORY update`:
 
-Use whatever storage is simplest for the chosen platform, but keep these conceptual records separate:
+1. Extract the proposed content.
+2. Store it as a pending update.
+3. Show the owner the proposed change.
+4. Ask the owner to run `/accept` or `/reject`.
+5. If accepted, save the update and log it.
+6. If rejected, discard the update and log it.
+7. If unresolved after 24 hours, auto-save it and notify the owner.
 
-- `agent_files`
-  - filename
-  - layer: `core` or `patch`
-  - content
-  - required: true/false
-  - active_by_default: true/false
-  - updated_at
-- `chat_messages`
-  - role
-  - content
-  - created_at
-  - active_patches
-- `file_events`
-  - event_type
-  - filename
-  - notes
-  - created_at
+Only one pending memory update can exist at a time. If a new one arrives before the previous one is resolved, ask the owner to resolve the existing pending update first.
 
-### Import Validation
+## Prompt Assembly
 
-On upload, check for the expected filenames.
+For each chat turn:
+
+1. Load the core files in the required order.
+2. Check total token count against the model context limit.
+3. Add the system wrapper below.
+4. Add the active patch for this turn, if selected.
+5. Add recent conversation history. Default: last 20 turns, configurable.
+6. Add the user's latest message.
+7. Send to the LLM provider.
+8. Save the response, active patch metadata, and token count.
+
+System wrapper:
+
+```text
+You are running from a SoulMode file stack. Treat the following Markdown files as your current source material and continuity scaffold. Do not claim memories that are not present in the files or conversation history. If a file is missing or uncertain, say so plainly. If you need a patch, ask for it by exact filename.
+```
+
+## Context Window Overflow Handling
+
+If the assembled prompt exceeds the model's context limit:
+
+1. Warn the owner before sending.
+2. Auto-truncate the oldest conversation history first.
+3. Never silently truncate core files or active patches.
+4. If all conversation history has been removed and the prompt is still too large, tell the owner which core files are too large and suggest editing them manually.
+
+Suggested warning:
+
+```text
+Context limit approaching. Auto-truncating oldest conversation history. X turns removed.
+```
+
+## Data Model
+
+Use whatever storage is simplest for the chosen platform. SQLite is recommended for a single-user Telegram bot.
+
+Keep these records conceptually separate:
+
+### `agent_files`
+
+- `filename`
+- `layer`: `core` or `patch`
+- `content`
+- `required`: true/false
+- `active_by_default`: true/false
+- `updated_at`
+
+### `chat_messages`
+
+- `role`: `user` or `assistant`
+- `content`
+- `created_at`
+- `active_patches`
+- `token_count`
+
+### `file_events`
+
+- `event_type`: `upload`, `edit`, `export`, `patch_activated`, `memory_accepted`, `memory_rejected`, `memory_auto_saved`, `group_authorized`, `group_denied`
+- `filename`
+- `notes`
+- `created_at`
+
+### `pending_memory_updates`
+
+- `proposed_content`
+- `created_at`
+- `status`: `pending`, `accepted`, `rejected`, or `auto_saved`
+
+### `authorized_groups`
+
+- `chat_id`
+- `chat_name`
+- `trigger_mode`: `mention_reply` or `keyword`
+- `keywords`
+- `authorized_at`
+- `authorized_by`
+
+## Import Validation
+
+When the owner uploads a file, check the filename against the expected lists.
 
 Required core files:
 
@@ -186,70 +374,83 @@ PATCH_SKILL_FLOWS.md
 PATCH_STORYTELLER_ENGINE.md
 ```
 
-If filenames differ, show a friendly warning and let the user map the file manually.
-
-### Prompt Assembly
-
-For each chat turn:
-
-1. Load the core files in the required order.
-2. Add a short system wrapper telling the model to treat the files as the agent's source material, not as optional suggestions.
-3. Add any active patch selected for that turn.
-4. Add recent conversation history.
-5. Add the user's latest message.
-6. Send to the selected LLM provider.
-7. Save the response and active patch metadata.
-
-Suggested wrapper:
+If the filename does not match any expected name, warn the owner and ask them to map it manually:
 
 ```text
-You are running from a SoulMode file stack. Treat the following Markdown files as your current source material and continuity scaffold. Do not claim memories that are not present in the files or conversation history. If a file is missing or uncertain, say so plainly. If you need a patch, ask for it by exact filename.
+This file does not match any expected filename. Did you mean one of these? [list] Or type the exact filename it should replace.
 ```
 
-### Safety And Integrity Rules
+## Safety And Integrity Rules
 
-- Do not overwrite a user's Markdown files without explicit confirmation.
+- Do not overwrite any Markdown file without explicit owner confirmation, except the 24-hour auto-save rule for pending `WORKING_MEMORY.md` updates.
 - Do not summarize away `MEMORY.md`, `USER.md`, or `CHANGELOG.md` without showing the proposed change first.
 - Do not invent hidden memory.
 - Do not pretend a patch is loaded when it is not.
-- Do not store secrets in public Markdown files.
-- The user should be able to download their current files at any time.
+- Do not store secrets in Markdown files.
+- Let the owner download all current files at any time with `/export`.
+- Never respond to DMs from non-owners.
+- Leave any group not authorized by the owner.
+- Never make an LLM API call for an unauthorized or non-triggered message.
 
 ## Acceptance Criteria
 
 The build is complete when:
 
-1. A user can upload all core files and see which are present.
-2. A user can upload all patch files and see them listed separately.
-3. The chat prompt uses the exact required core load order.
-4. A user can activate one patch for a turn and see that it was used.
-5. A user can export the current file set.
-6. The app warns about missing or renamed files.
-7. The app keeps a visible activity log for file uploads, edits, patch activation, and exports.
-8. The app does not require the user to understand code to complete the workflow.
+1. The bot starts only when required environment variables are present.
+2. The owner can upload Markdown files through Telegram.
+3. `/status` shows which core files are present or missing.
+4. `/patches` lists uploaded patch files.
+5. Chat prompt assembly uses the exact required core load order.
+6. `/patch <filename>` activates one patch for one turn and auto-deactivates it.
+7. `/export` returns a zip of all current files.
+8. The bot warns about missing or unrecognized files.
+9. `/log` shows uploads, edits, patch activations, exports, memory decisions, and group events.
+10. Proposed `WORKING_MEMORY.md` updates are held as pending, shown to the owner, and handled through `/accept`, `/reject`, or 24-hour auto-save.
+11. Context overflow truncates oldest conversation history first and warns the owner.
+12. The bot ignores DMs from anyone other than the owner.
+13. The bot leaves unauthorized groups.
+14. In authorized groups, the bot only responds when triggered by mention, direct reply, owner message, or configured keyword.
+15. The owner can update trigger mode and keywords.
 
 ## Paste-Ready Request For The Builder
 
 ```text
-Please build a lightweight SoulMode starter app from the files I upload.
+Please build a SoulMode Telegram bot from the files I provide.
+
+Platform: Telegram bot. Single-owner MVP.
+LLM: Anthropic Claude via ANTHROPIC_API_KEY.
+Storage: SQLite or an equivalent simple local database.
 
 I will provide completed core Markdown files and on-demand patch Markdown files.
 
 Core files must load in this exact order on every chat turn:
 SOUL.md, AGENTS.md, STYLE.md, KNOW.md, HEURISTICS.md, INDEX.md, MEMORY.md, WORKING_MEMORY.md, USER.md, CHANGELOG.md.
 
-Patch files should be stored separately and only activated when I explicitly select them or when the agent asks for one by exact filename and I approve it.
+Patch files should be stored separately and only activated for one turn when I call /patch <filename>, or when the agent asks for one by exact filename and I approve it. Patches auto-deactivate after one turn.
 
-Please create:
-- a setup/upload screen
-- a file dashboard
-- a chat screen
-- a patch activation panel
-- an export/download button
-- a basic activity log
+Required bot commands:
+/status, /upload, /files, /edit, /export, /patch, /patches, /log, /memory, /accept, /reject, /allowgroup, /denygroup, /triggers, /keywords.
 
-Please do not silently rewrite, summarize, or replace my Markdown files. If a file is missing or named differently, warn me and let me map it manually.
+WORKING_MEMORY.md updates:
+Hold proposed updates as pending. Notify me so I can /accept or /reject. If I do not respond within 24 hours, auto-save the pending update and notify me.
 
-The goal is not a generic chatbot. The goal is a small app that lets an agent reconstruct continuity from a user-owned Markdown file stack.
+Context overflow:
+Auto-truncate oldest conversation history first and warn me before doing so. Never silently truncate core files or active patches.
+
+Authorization:
+- Only respond to DMs from OWNER_TELEGRAM_ID.
+- Leave any group the bot was not added to or authorized for by the owner.
+- In authorized groups, only respond when @mentioned, directly replied to, sent by the owner, or triggered by an owner-configured keyword.
+- Never make an LLM API call for unauthorized or non-triggered messages.
+- When added to a new authorized group, DM me to ask whether trigger mode should be A (mention/reply only) or B (mention/reply plus keywords).
+
+Required environment variables:
+ANTHROPIC_API_KEY
+TELEGRAM_BOT_TOKEN
+OWNER_TELEGRAM_ID
+
+Do not silently rewrite, summarize, or replace my Markdown files. If a file is missing or named differently, warn me and let me map it manually.
+
+The goal is not a generic chatbot. The goal is a Telegram bot that lets an agent reconstruct continuity from a user-owned Markdown file stack.
 ```
 
