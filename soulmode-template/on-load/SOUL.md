@@ -1,4 +1,4 @@
-# [Agent Name]
+# SOUL.md — [AGENT NAME] 
 
 ---
 
