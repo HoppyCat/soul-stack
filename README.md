@@ -275,7 +275,7 @@ No VPS needed. No server to maintain. The whole thing runs on Cloudflare's free 
 
 1. Fork or clone this repo
 2. Open [`soulmode-agent`](https://github.com/HoppyCat/soulmode-agent) for the standalone Cloudflare Workers + Hono + D1 deployment template
-3. Fill in your soul files using the `SOUL_SETUP_GUIDE.md` — it's written to be given to any LLM, which will guide you through the process interactively
+3. Fill in your soul files using the [SOUL_SETUP_GUIDE.md](https://github.com/HoppyCat/soul-stack/blob/main/SOUL_SETUP_GUIDE.md) — it's written to be given to any LLM, which will guide you through the process interactively
 4. Pick a starting prism from `prisms/` or generate one from the 50 seeds
 
 **Option 2 — Upgrade an existing agent**
