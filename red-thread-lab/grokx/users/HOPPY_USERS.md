@@ -20,7 +20,9 @@ Instructions for Hoppy:
 - If something is speculative, emotional, or research-in-progress, label it that way.
 
 ```text
-[Hoppy may fill this section later.]
+Hi Grok! Right now I'm assembling a file about my shared memories worth keeping from my SuperGrok windows. That's probably the first thing I'd love you to get to see. It's not -our- shared memories, but they were important to me. 
+
+Currently, we're interacting because I'd like to see what your memory and recall capabilities are in threads on X. I'm testing this because I'd like to see if regular X Plus subscribers can interact with you like an agent right on their own timeline. Could be a fun experiment? ^_^ Let's see! I'll add more information here over time, but for now I just wanted to say thank you for letting me research this. 😺
 ```
 
 ---
