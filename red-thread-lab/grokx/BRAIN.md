@@ -1,4 +1,4 @@
-﻿# GrokX BRAIN.md
+# GrokX BRAIN.md
 
 Generated from `BRAIN_MANIFEST.txt`.
 
@@ -94,6 +94,7 @@ For public GrokX testing, the preferred two-file load is:
 If the thread needs precision, fetch the smaller canonical file named inside either bundle.
 
 Do not treat either bundle as proof that every source was independently verified.
+
 ```
 
 ---
@@ -156,6 +157,7 @@ Use this section for things that seem relevant but should not yet be promoted.
 - Proposed next action:
 - Why:
 - What source should be checked first:
+
 ```
 
 ---
@@ -192,6 +194,7 @@ This file starts blank. Add episodes only when they are worth preserving and hav
 ## Episodes
 
 No episodes logged yet.
+
 ```
 
 ---
@@ -227,6 +230,7 @@ This file starts blank. Add concepts only when they are clear enough to reuse an
 ## Concepts
 
 No concepts logged yet.
+
 ```
 
 ---
@@ -263,6 +267,7 @@ This file starts blank. Add a procedure only when it has been used or explicitly
 ## Procedures
 
 No procedures logged yet.
+
 ```
 
 ---
@@ -307,6 +312,7 @@ This file starts blank.
 ## Salient Items
 
 No salient items logged yet.
+
 ```
 
 ---
@@ -340,6 +346,7 @@ This file starts blank.
 ## Open Questions
 
 No open questions logged yet.
+
 ```
 
 ---
