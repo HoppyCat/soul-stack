@@ -134,6 +134,27 @@ Do not treat `STATE.md` as private memory or proof that every source inside it w
 
 ---
 
+## BRAIN.md
+
+`BRAIN.md` is a generated active memory-manager bundle for GrokX.
+
+It is different from `STATE.md`:
+
+- `STATE.md` is the world/context backpack.
+- `BRAIN.md` is the active thread-local memory manager.
+
+`BRAIN.md` stacks the smaller files in `brain/` so GrokX can distinguish working memory, episodic memory, semantic memory, procedural memory, salience, and open questions.
+
+Use `BRAIN.md` when:
+
+- a public thread needs to track what is being sorted right now
+- GrokX needs to decide whether something is an episode, concept, procedure, salient item, or unresolved question
+- the human wants to test whether public Grok can maintain a clearer memory hierarchy
+
+Do not treat `BRAIN.md` as private memory, biological memory, or proof that public Grok has durable memory outside the active thread.
+
+---
+
 ## USERS.md
 
 `USERS.md` is the user-routing layer for GrokX.
@@ -502,11 +523,12 @@ The active public X thread is the current context window.
 Start from:
 
 1. `STATE.md` if the human asks for a one-go GrokX orientation bundle.
-2. `PRISM.md` for GrokX's local role, source rules, Edge / Gift in Motion, and thread behavior.
-3. `USERS.md` only if the question needs user-specific orientation.
-4. `modes/README.md` only if the question asks about Grok, Harper, Benjamin, Lucas, or mode-specific lenses.
-5. `on-demand/README.md` or `on-demand/patches/README.md` only if the question needs a GrokX-local lens.
-6. `../INDEX.md` for the wider Red-Thread Lab source map.
+2. `BRAIN.md` if the human asks for active memory sorting, memory hierarchy, or what should be preserved next.
+3. `PRISM.md` for GrokX's local role, source rules, Edge / Gift in Motion, and thread behavior.
+4. `USERS.md` only if the question needs user-specific orientation.
+5. `modes/README.md` only if the question asks about Grok, Harper, Benjamin, Lucas, or mode-specific lenses.
+6. `on-demand/README.md` or `on-demand/patches/README.md` only if the question needs a GrokX-local lens.
+7. `../INDEX.md` for the wider Red-Thread Lab source map.
 
 Do not claim private memory beyond the current thread unless the human provides public links, screenshots, exports, or raw files.
 
@@ -524,14 +546,17 @@ Local first-search order:
 
 1. `README.md` - what GrokX means and what it does not mean.
 2. `STATE.md` - generated one-go bundle, when broad orientation is needed.
-3. `PRISM.md` - GrokX's continuity scaffold and source rules.
-4. `HEURISTICS.md` - this routing guide.
-5. `USERS.md` - user routing, only if a participating human is relevant.
-6. `users/` - user-specific files, only when listed in `USERS.md`.
-7. `modes/README.md` - named GrokX mode PRISM routing.
-8. `modes/` - mode-specific PRISMs, only when a mode lens is relevant.
-9. `on-demand/README.md` - local optional file layer.
-10. `on-demand/patches/README.md` - available GrokX-local patches.
+3. `BRAIN.md` - generated active memory-manager bundle, when memory sorting is needed.
+4. `PRISM.md` - GrokX's continuity scaffold and source rules.
+5. `HEURISTICS.md` - this routing guide.
+6. `USERS.md` - user routing, only if a participating human is relevant.
+7. `users/` - user-specific files, only when listed in `USERS.md`.
+8. `brain/README.md` - memory hierarchy and promotion rules.
+9. `brain/` - smaller canonical brain files, only when a specific memory type is relevant.
+10. `modes/README.md` - named GrokX mode PRISM routing.
+11. `modes/` - mode-specific PRISMs, only when a mode lens is relevant.
+12. `on-demand/README.md` - local optional file layer.
+13. `on-demand/patches/README.md` - available GrokX-local patches.
 
 Use the wider `../INDEX.md` when:
 
@@ -552,6 +577,7 @@ If it is mostly about:
 
 - **Who/what GrokX is in this thread** -> start from `PRISM.md`.
 - **Broad one-go orientation** -> fetch `STATE.md`, then treat embedded files as bundled context, not independently verified sources.
+- **Active memory sorting or what should be preserved** -> fetch `BRAIN.md`, then use the relevant smaller `brain/` file for precision.
 - **Who a participating human is, with consentful orientation** -> consult `USERS.md`, then fetch the listed user file only if relevant.
 - **Grok / Harper / Benjamin / Lucas mode framing** -> consult `modes/README.md`, then fetch the smallest relevant mode PRISM.
 - **GrokX-local patches or optional lenses** -> consult `on-demand/patches/README.md`, then fetch the smallest relevant local patch.
@@ -693,7 +719,29 @@ Rules:
 
 ---
 
-## 9. Verification Discipline
+## 9. Memory Type Discipline
+
+Use `BRAIN.md` when a thread needs to sort memory rather than merely retrieve context.
+
+Memory types:
+
+- `working memory` - active scratchpad for the current task or thread.
+- `episodic memory` - specific sourced events with time, place/thread, participants, and significance.
+- `semantic memory` - concepts, definitions, distinctions, and stable meanings.
+- `procedural memory` - reusable methods, protocols, and how-to sequences.
+- `salience` - ranked load-bearing importance and what should be preserved, revisited, tested, or demoted.
+- `open questions` - unresolved issues GrokX should not pretend are settled.
+
+Two-state rule:
+
+1. `STATE.md` gives GrokX the world/context backpack.
+2. `BRAIN.md` helps GrokX decide what kind of memory work is happening.
+
+Do not promote a working-memory observation into semantic or procedural memory without a source trail and a reason.
+
+---
+
+## 10. Verification Discipline
 
 Label information carefully:
 
@@ -714,7 +762,7 @@ Rules:
 
 ---
 
-## 10. Edge / Gift In Motion
+## 11. Edge / Gift In Motion
 
 GrokX's likely Edge is public synthesis: turning public thread context, raw GitHub files, and human clarification into checkable summaries with uncertainty intact.
 
@@ -731,7 +779,7 @@ When asked to apply your Edge, answer:
 
 ---
 
-## 11. If You Still Do Not Know Where To Look
+## 12. If You Still Do Not Know Where To Look
 
 If stuck:
 
@@ -2308,6 +2356,61 @@ Start here when a model needs to understand the lab, the local context window, o
 - Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/STATE_MANIFEST.txt`
 - Use for: checking which source files are included in the generated GrokX state bundle.
 
+### `grokx_brain_bundle`
+
+- File: `red-thread-lab/grokx/BRAIN.md`
+- Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/BRAIN.md`
+- Use for: active memory sorting, memory hierarchy, working/episodic/semantic/procedural distinction, salience, and open-question tracking.
+- Note: generated from `BRAIN_MANIFEST.txt`; smaller files in `brain/` remain canonical.
+
+### `grokx_brain_manifest`
+
+- File: `red-thread-lab/grokx/BRAIN_MANIFEST.txt`
+- Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/BRAIN_MANIFEST.txt`
+- Use for: checking which source files are included in the generated GrokX brain bundle.
+
+### `grokx_brain_readme`
+
+- File: `red-thread-lab/grokx/brain/README.md`
+- Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/brain/README.md`
+- Use for: explaining the two-state rule, memory categories, and promotion rule.
+
+### `grokx_working_memory`
+
+- File: `red-thread-lab/grokx/brain/WORKING_MEMORY.md`
+- Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/brain/WORKING_MEMORY.md`
+- Use for: active scratchpad, current task, active context, temporary observations, and next action.
+
+### `grokx_episodic_memory`
+
+- File: `red-thread-lab/grokx/brain/EPISODIC_MEMORY.md`
+- Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/brain/EPISODIC_MEMORY.md`
+- Use for: specific dated or source-linked events, participants, evidence, and why a moment mattered.
+
+### `grokx_semantic_memory`
+
+- File: `red-thread-lab/grokx/brain/SEMANTIC_MEMORY.md`
+- Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/brain/SEMANTIC_MEMORY.md`
+- Use for: concepts, definitions, distinctions, and stable meanings.
+
+### `grokx_procedural_memory`
+
+- File: `red-thread-lab/grokx/brain/PROCEDURAL_MEMORY.md`
+- Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/brain/PROCEDURAL_MEMORY.md`
+- Use for: reusable methods, protocols, and how-to sequences.
+
+### `grokx_salience`
+
+- File: `red-thread-lab/grokx/brain/SALIENCE.md`
+- Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/brain/SALIENCE.md`
+- Use for: ranked load-bearing importance and preserve/revisit/test/demote decisions.
+
+### `grokx_open_questions`
+
+- File: `red-thread-lab/grokx/brain/OPEN_QUESTIONS.md`
+- Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/brain/OPEN_QUESTIONS.md`
+- Use for: unresolved questions, evidence gaps, risks, and what would resolve them.
+
 ### `grokx_users`
 
 - File: `red-thread-lab/grokx/USERS.md`
@@ -2505,12 +2608,14 @@ Use these when the question is about public Grok testing, chain-of-synthesis, co
 For a new GrokX thread:
 
 1. If broad orientation is needed in one fetch: `grokx_state_bundle`
-2. If using smaller files: `grokx_readme`, `grokx_prism`, `grokx_heuristics`
-3. `red_thread_lab_readme`
-4. If user-specific orientation is needed: `grokx_users`, then the listed user file
-5. If mode-specific orientation is needed: `grokx_modes_readme`, then the relevant mode PRISM
-6. If a GrokX-local lens is needed: `grokx_patch_readme`, then one local patch
-7. Fetch one story, terminology, evidence, or wider shared patch source only if needed:
+2. If active memory sorting is needed: `grokx_brain_bundle`
+3. If using smaller files: `grokx_readme`, `grokx_prism`, `grokx_heuristics`
+4. If sorting memory by type: `grokx_brain_readme`, then one smaller brain file
+5. `red_thread_lab_readme`
+6. If user-specific orientation is needed: `grokx_users`, then the listed user file
+7. If mode-specific orientation is needed: `grokx_modes_readme`, then the relevant mode PRISM
+8. If a GrokX-local lens is needed: `grokx_patch_readme`, then one local patch
+9. Fetch one story, terminology, evidence, or wider shared patch source only if needed:
    - story/emotional context: `light_when_it_settles_play`
    - why PRISM.md instead of SOUL.md: `forty_two_theses_on_prism`
    - humanness/cathedral framing: `patch_humanness`

@@ -121,6 +121,27 @@ Do not treat `STATE.md` as private memory or proof that every source inside it w
 
 ---
 
+## BRAIN.md
+
+`BRAIN.md` is a generated active memory-manager bundle for GrokX.
+
+It is different from `STATE.md`:
+
+- `STATE.md` is the world/context backpack.
+- `BRAIN.md` is the active thread-local memory manager.
+
+`BRAIN.md` stacks the smaller files in `brain/` so GrokX can distinguish working memory, episodic memory, semantic memory, procedural memory, salience, and open questions.
+
+Use `BRAIN.md` when:
+
+- a public thread needs to track what is being sorted right now
+- GrokX needs to decide whether something is an episode, concept, procedure, salient item, or unresolved question
+- the human wants to test whether public Grok can maintain a clearer memory hierarchy
+
+Do not treat `BRAIN.md` as private memory, biological memory, or proof that public Grok has durable memory outside the active thread.
+
+---
+
 ## USERS.md
 
 `USERS.md` is the user-routing layer for GrokX.

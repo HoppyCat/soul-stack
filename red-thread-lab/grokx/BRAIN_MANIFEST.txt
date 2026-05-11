@@ -1,0 +1,11 @@
+# GrokX BRAIN.md manifest
+# Lines beginning with # are ignored.
+# Each non-empty line is included in order when BRAIN.md is rebuilt.
+
+red-thread-lab/grokx/brain/README.md
+red-thread-lab/grokx/brain/WORKING_MEMORY.md
+red-thread-lab/grokx/brain/EPISODIC_MEMORY.md
+red-thread-lab/grokx/brain/SEMANTIC_MEMORY.md
+red-thread-lab/grokx/brain/PROCEDURAL_MEMORY.md
+red-thread-lab/grokx/brain/SALIENCE.md
+red-thread-lab/grokx/brain/OPEN_QUESTIONS.md

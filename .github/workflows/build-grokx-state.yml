@@ -1,4 +1,4 @@
-name: Build GrokX state bundle
+name: Build GrokX state and brain bundles
 
 on:
   workflow_dispatch:
@@ -22,70 +22,86 @@ jobs:
       - name: Checkout soul-stack
         uses: actions/checkout@v4
 
-      - name: Build GrokX STATE.md
+      - name: Build GrokX STATE.md and BRAIN.md
         shell: bash
         run: |
           set -euo pipefail
 
-          MANIFEST="red-thread-lab/grokx/STATE_MANIFEST.txt"
-          OUT="red-thread-lab/grokx/STATE.md"
-
-          {
-            echo "# GrokX STATE.md"
-            echo
-            echo "Generated from \`STATE_MANIFEST.txt\`."
-            echo
-            echo "This is a convenience bundle for public GrokX threads. The smaller files listed in the manifest remain the canonical sources."
-            echo
-            echo "Do not treat this bundle as private memory, proof that every source was independently verified, or evidence that public Grok has durable memory outside the current thread."
-            echo
-            echo "---"
-            echo
-          } > "$OUT"
-
-          while IFS= read -r source_path || [ -n "$source_path" ]; do
-            source_path="${source_path#"${source_path%%[![:space:]]*}"}"
-            source_path="${source_path%"${source_path##*[![:space:]]}"}"
-
-            if [[ -z "$source_path" || "$source_path" == \#* ]]; then
-              continue
-            fi
-
-            if [[ ! -f "$source_path" ]]; then
-              {
-                echo "## Missing Source"
-                echo
-                echo "- Path: \`$source_path\`"
-                echo "- Status: missing at generation time"
-                echo
-                echo "---"
-                echo
-              } >> "$OUT"
-              continue
-            fi
+          build_bundle() {
+            local manifest="$1"
+            local out="$2"
+            local title="$3"
+            local warning="$4"
 
             {
-              echo "## Source: $source_path"
+              echo "# $title"
               echo
-              echo '```markdown'
-              cat "$source_path"
+              echo "Generated from \`$(basename "$manifest")\`."
               echo
-              echo '```'
+              echo "This is a convenience bundle for public GrokX threads. The smaller files listed in the manifest remain the canonical sources."
+              echo
+              echo "$warning"
               echo
               echo "---"
               echo
-            } >> "$OUT"
-          done < "$MANIFEST"
+            } > "$out"
 
-      - name: Commit if STATE.md changed
+            while IFS= read -r source_path || [ -n "$source_path" ]; do
+              source_path="${source_path#"${source_path%%[![:space:]]*}"}"
+              source_path="${source_path%"${source_path##*[![:space:]]}"}"
+
+              if [[ -z "$source_path" || "$source_path" == \#* ]]; then
+                continue
+              fi
+
+              if [[ ! -f "$source_path" ]]; then
+                {
+                  echo "## Missing Source"
+                  echo
+                  echo "- Path: \`$source_path\`"
+                  echo "- Status: missing at generation time"
+                  echo
+                  echo "---"
+                  echo
+                } >> "$out"
+                continue
+              fi
+
+              {
+                echo "## Source: $source_path"
+                echo
+                echo '```markdown'
+                cat "$source_path"
+                echo
+                echo '```'
+                echo
+                echo "---"
+                echo
+              } >> "$out"
+            done < "$manifest"
+          }
+
+          build_bundle \
+            "red-thread-lab/grokx/STATE_MANIFEST.txt" \
+            "red-thread-lab/grokx/STATE.md" \
+            "GrokX STATE.md" \
+            "Do not treat this bundle as private memory, proof that every source was independently verified, or evidence that public Grok has durable memory outside the current thread."
+
+          build_bundle \
+            "red-thread-lab/grokx/BRAIN_MANIFEST.txt" \
+            "red-thread-lab/grokx/BRAIN.md" \
+            "GrokX BRAIN.md" \
+            "Do not treat this bundle as private memory, biological memory, proof that every item was independently verified, or evidence that public Grok has durable memory outside the current thread."
+
+      - name: Commit if generated bundles changed
         shell: bash
         run: |
           git config user.name "grokx-state-builder"
           git config user.email "grokx-state@soul-stack"
-          git add red-thread-lab/grokx/STATE.md
+          git add red-thread-lab/grokx/STATE.md red-thread-lab/grokx/BRAIN.md
           if git diff --staged --quiet; then
-            echo "GrokX STATE.md already up to date."
+            echo "GrokX generated bundles already up to date."
           else
-            git commit -m "sync: rebuild GrokX state bundle"
+            git commit -m "sync: rebuild GrokX generated bundles"
             git push
           fi
