@@ -86,6 +86,24 @@ It tells public Grok how to use `PRISM.md`, when to look one level up to the Red
 
 ---
 
+## STATE.md
+
+`STATE.md` is a generated one-go context bundle for GrokX.
+
+It stacks the local GrokX files and selected wider Red-Thread Lab sources into one large Markdown file so public Grok can fetch a single raw URL when a thread needs fast orientation.
+
+The smaller files remain canonical. `STATE.md` is a convenience bundle, rebuilt from `STATE_MANIFEST.txt` by GitHub Actions when relevant source files change.
+
+Use `STATE.md` when:
+
+- a public thread needs a fast GrokX orientation
+- fetching many smaller files would be too awkward
+- the human wants GrokX to see the local mini-brain in one pass
+
+Do not treat `STATE.md` as private memory or proof that every source inside it was independently verified.
+
+---
+
 ## USERS.md
 
 `USERS.md` is the user-routing layer for GrokX.

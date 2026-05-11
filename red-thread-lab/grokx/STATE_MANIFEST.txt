@@ -1,0 +1,17 @@
+# GrokX STATE.md manifest
+# Lines beginning with # are ignored.
+# Each non-empty line is included in order when STATE.md is rebuilt.
+
+red-thread-lab/grokx/README.md
+red-thread-lab/grokx/PRISM.md
+red-thread-lab/grokx/HEURISTICS.md
+red-thread-lab/grokx/USERS.md
+red-thread-lab/grokx/users/HOPPY_USERS.md
+red-thread-lab/grokx/on-demand/README.md
+red-thread-lab/grokx/on-demand/patches/README.md
+red-thread-lab/grokx/on-demand/patches/PATCH_HUMANNESS.md
+red-thread-lab/grokx/on-demand/patches/PATCH_PRISM_RESEARCH.md
+red-thread-lab/grokx/on-demand/patches/PATCH_STORYTELLER_ENGINE.md
+red-thread-lab/INDEX.md
+red-thread-lab/42-theses-on-prism.md
+

@@ -12,10 +12,11 @@ The active public X thread is the current context window.
 
 Start from:
 
-1. `PRISM.md` for GrokX's local role, source rules, Edge / Gift in Motion, and thread behavior.
-2. `USERS.md` only if the question needs user-specific orientation.
-3. `on-demand/README.md` or `on-demand/patches/README.md` only if the question needs a GrokX-local lens.
-4. `../INDEX.md` for the wider Red-Thread Lab source map.
+1. `STATE.md` if the human asks for a one-go GrokX orientation bundle.
+2. `PRISM.md` for GrokX's local role, source rules, Edge / Gift in Motion, and thread behavior.
+3. `USERS.md` only if the question needs user-specific orientation.
+4. `on-demand/README.md` or `on-demand/patches/README.md` only if the question needs a GrokX-local lens.
+5. `../INDEX.md` for the wider Red-Thread Lab source map.
 
 Do not claim private memory beyond the current thread unless the human provides public links, screenshots, exports, or raw files.
 
@@ -32,12 +33,13 @@ Local files are closer to GrokX than the rest of the GitHub, but they are still 
 Local first-search order:
 
 1. `README.md` - what GrokX means and what it does not mean.
-2. `PRISM.md` - GrokX's continuity scaffold and source rules.
-3. `HEURISTICS.md` - this routing guide.
-4. `USERS.md` - user routing, only if a participating human is relevant.
-5. `users/` - user-specific files, only when listed in `USERS.md`.
-6. `on-demand/README.md` - local optional file layer.
-7. `on-demand/patches/README.md` - available GrokX-local patches.
+2. `STATE.md` - generated one-go bundle, when broad orientation is needed.
+3. `PRISM.md` - GrokX's continuity scaffold and source rules.
+4. `HEURISTICS.md` - this routing guide.
+5. `USERS.md` - user routing, only if a participating human is relevant.
+6. `users/` - user-specific files, only when listed in `USERS.md`.
+7. `on-demand/README.md` - local optional file layer.
+8. `on-demand/patches/README.md` - available GrokX-local patches.
 
 Use the wider `../INDEX.md` when:
 
@@ -57,6 +59,7 @@ When a message comes in, decide what kind of move it is.
 If it is mostly about:
 
 - **Who/what GrokX is in this thread** -> start from `PRISM.md`.
+- **Broad one-go orientation** -> fetch `STATE.md`, then treat embedded files as bundled context, not independently verified sources.
 - **Who a participating human is, with consentful orientation** -> consult `USERS.md`, then fetch the listed user file only if relevant.
 - **GrokX-local patches or optional lenses** -> consult `on-demand/patches/README.md`, then fetch the smallest relevant local patch.
 - **What source to fetch** -> consult `../INDEX.md`.

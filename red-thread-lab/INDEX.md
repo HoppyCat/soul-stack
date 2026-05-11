@@ -36,6 +36,19 @@ Start here when a model needs to understand the lab, the local context window, o
 - Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/HEURISTICS.md`
 - Use for: local GrokX routing rules, source discipline, patch selection, and the compact Humanness / Storyteller orientation.
 
+### `grokx_state_bundle`
+
+- File: `red-thread-lab/grokx/STATE.md`
+- Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/STATE.md`
+- Use for: one-go GrokX orientation when a public thread needs the local mini-brain bundled into a single Markdown file.
+- Note: generated from `STATE_MANIFEST.txt`; smaller source files remain canonical.
+
+### `grokx_state_manifest`
+
+- File: `red-thread-lab/grokx/STATE_MANIFEST.txt`
+- Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/STATE_MANIFEST.txt`
+- Use for: checking which source files are included in the generated GrokX state bundle.
+
 ### `grokx_users`
 
 - File: `red-thread-lab/grokx/USERS.md`
@@ -202,13 +215,12 @@ Use these when the question is about public Grok testing, chain-of-synthesis, co
 
 For a new GrokX thread:
 
-1. `grokx_readme`
-2. `grokx_prism`
-3. `grokx_heuristics`
-4. `red_thread_lab_readme`
-5. If user-specific orientation is needed: `grokx_users`, then the listed user file
-6. If a GrokX-local lens is needed: `grokx_patch_readme`, then one local patch
-7. Fetch one story, terminology, evidence, or wider shared patch source only if needed:
+1. If broad orientation is needed in one fetch: `grokx_state_bundle`
+2. If using smaller files: `grokx_readme`, `grokx_prism`, `grokx_heuristics`
+3. `red_thread_lab_readme`
+4. If user-specific orientation is needed: `grokx_users`, then the listed user file
+5. If a GrokX-local lens is needed: `grokx_patch_readme`, then one local patch
+6. Fetch one story, terminology, evidence, or wider shared patch source only if needed:
    - story/emotional context: `light_when_it_settles_play`
    - why PRISM.md instead of SOUL.md: `forty_two_theses_on_prism`
    - humanness/cathedral framing: `patch_humanness`
