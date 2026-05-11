@@ -9,3 +9,5 @@ red-thread-lab/grokx/brain/SEMANTIC_MEMORY.md
 red-thread-lab/grokx/brain/PROCEDURAL_MEMORY.md
 red-thread-lab/grokx/brain/SALIENCE.md
 red-thread-lab/grokx/brain/OPEN_QUESTIONS.md
+red-thread-lab/grokx/brain/REVIEW_QUEUE.md
+red-thread-lab/grokx/brain/MEMORY_ARCHIVE.md

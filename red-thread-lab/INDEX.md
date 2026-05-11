@@ -104,6 +104,18 @@ Start here when a model needs to understand the lab, the local context window, o
 - Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/brain/OPEN_QUESTIONS.md`
 - Use for: unresolved questions, evidence gaps, risks, and what would resolve them.
 
+### `grokx_review_queue`
+
+- File: `red-thread-lab/grokx/brain/REVIEW_QUEUE.md`
+- Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/brain/REVIEW_QUEUE.md`
+- Use for: temporary 24-48 hour triage of fresh memory candidates before promotion, archive, or proposed deletion.
+
+### `grokx_memory_archive`
+
+- File: `red-thread-lab/grokx/brain/MEMORY_ARCHIVE.md`
+- Raw URL: `https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/brain/MEMORY_ARCHIVE.md`
+- Use for: retired sediment that should no longer stay active but should not be erased without a trace.
+
 ### `grokx_users`
 
 - File: `red-thread-lab/grokx/USERS.md`

@@ -68,6 +68,18 @@ Unresolved investigations.
 
 Use for: things GrokX should not pretend are solved, including capability limits, verification gaps, uncertain terminology, and experimental risks.
 
+### Review Queue
+
+Temporary triage for memory candidates.
+
+Use for: items that might become working, episodic, semantic, procedural, salient, archived, or proposed for deletion after a 24-48 hour review window.
+
+### Memory Archive
+
+Retired sediment.
+
+Use for: memories that used to be active or important but should no longer stay in the main memory files. Archive is not deletion; it is a public trace of what moved out of active use and why.
+
 ---
 
 ## Promotion Rule
@@ -81,6 +93,20 @@ Before promotion, ask:
 3. Is the item durable enough to help future reasoning?
 4. Could this create circular verification if reused carelessly?
 5. Does the memory belong in `BRAIN.md`, or should it remain only in the active X thread?
+
+---
+
+## Review / Consolidation Cycle
+
+When a new item appears:
+
+1. Put it in working memory or review queue first.
+2. Wait for a meaningful review window when possible, usually 24-48 hours or the next heartbeat/check-in.
+3. Decide whether it should be promoted, kept active, archived, marked as needing source, or proposed for deletion.
+4. If it is promoted, preserve the source label and why it moved.
+5. If it is archived or proposed for deletion, preserve the reason so future readers can audit the choice.
+
+Deletion should not be silent. If something is spam, duplicate, misleading, or no longer useful, use the review queue's `propose-delete` lane first.
 
 ---
 
@@ -347,6 +373,122 @@ This file starts blank.
 
 No open questions logged yet.
 
+```
+
+---
+
+## Source: red-thread-lab/grokx/brain/REVIEW_QUEUE.md
+
+```markdown
+# GrokX Review Queue
+
+The review queue is the holding area for new memory candidates.
+
+Use this file when something has just happened, has just been read, or has just been proposed for memory, but GrokX has not yet decided where it belongs.
+
+Suggested review window: 24-48 hours, or the next meaningful heartbeat/check-in.
+
+This file is not long-term memory. It is a triage bench.
+
+---
+
+## Review Outcomes
+
+Each candidate should eventually receive one of these actions:
+
+- `keep-working` - keep active in working memory for the current thread.
+- `promote-episodic` - move into episodic memory as a sourced event.
+- `promote-semantic` - move into semantic memory as a concept or definition.
+- `promote-procedural` - move into procedural memory as a reusable method.
+- `mark-salient` - add to salience because it is load-bearing.
+- `archive` - move to memory archive as retired sediment.
+- `needs-source` - pause until a source link, screenshot, export, or file is available.
+- `propose-delete` - candidate appears duplicate, spammy, wrong, unsafe, or no longer useful.
+
+`propose-delete` is the ban-hammer lane. Do not delete automatically. Treat deletion as a proposal that should preserve the reason, source, and reviewer.
+
+---
+
+## Candidate Template
+
+### Candidate
+
+- Date added:
+- Candidate text / summary:
+- Source:
+- Source label:
+- Proposed memory type:
+- Why it might matter:
+- Risk if promoted too early:
+- Review deadline:
+- Reviewer:
+- Decision:
+- Decision rationale:
+
+---
+
+## Candidates
+
+No candidates logged yet.
+```
+
+---
+
+## Source: red-thread-lab/grokx/brain/MEMORY_ARCHIVE.md
+
+```markdown
+# GrokX Memory Archive
+
+The memory archive is for sediment that should no longer stay active, but should not be erased without a trace.
+
+Human memory does not keep a perfect public archive of everything it once held. Agent memory can do something different: preserve a small, inspectable trail of what was retired, why it moved out of active memory, and whether it can be restored later.
+
+This file is for memories that used to matter enough to be sorted, but are no longer needed in working, episodic, semantic, procedural, salience, or open-question memory.
+
+---
+
+## Archive Rules
+
+- Archive is not deletion.
+- Archive is not active memory.
+- Archive entries should be short.
+- Keep source links where possible.
+- Preserve why the item was archived.
+- Do not archive private or sensitive material without explicit reason and care.
+- Do not treat archived memories as current truth without re-checking.
+
+---
+
+## Archive Reasons
+
+- `resolved` - no longer active because the issue was settled.
+- `superseded` - replaced by a clearer or newer entry.
+- `duplicate` - already captured elsewhere.
+- `low-salience` - real but not load-bearing.
+- `context-retired` - belonged to an earlier thread phase.
+- `needs-human-review` - should not be reused until checked.
+
+---
+
+## Archive Entry Template
+
+### Archived Item
+
+- Date archived:
+- Original memory type:
+- Summary:
+- Original source:
+- Source label:
+- Archive reason:
+- Replacement / related memory:
+- Restore conditions:
+- Reviewer:
+
+---
+
+## Archived Items
+
+No archived items logged yet.
 ```
 
 ---

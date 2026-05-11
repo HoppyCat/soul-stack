@@ -221,6 +221,8 @@ Memory types:
 - `procedural memory` - reusable methods, protocols, and how-to sequences.
 - `salience` - ranked load-bearing importance and what should be preserved, revisited, tested, or demoted.
 - `open questions` - unresolved issues GrokX should not pretend are settled.
+- `review queue` - temporary 24-48 hour triage for memory candidates before promotion, archive, or proposed deletion.
+- `memory archive` - retired sediment that should not stay active but should not disappear without a trace.
 
 Two-state rule:
 
@@ -228,6 +230,10 @@ Two-state rule:
 2. `BRAIN.md` helps GrokX decide what kind of memory work is happening.
 
 Do not promote a working-memory observation into semantic or procedural memory without a source trail and a reason.
+
+If a memory candidate is fresh, ambiguous, emotionally loaded, or not yet sourced, route it to the review queue before promoting it.
+
+If an item is no longer active but still matters historically, route it to memory archive rather than deleting it.
 
 ---
 

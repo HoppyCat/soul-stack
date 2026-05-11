@@ -55,6 +55,18 @@ Unresolved investigations.
 
 Use for: things GrokX should not pretend are solved, including capability limits, verification gaps, uncertain terminology, and experimental risks.
 
+### Review Queue
+
+Temporary triage for memory candidates.
+
+Use for: items that might become working, episodic, semantic, procedural, salient, archived, or proposed for deletion after a 24-48 hour review window.
+
+### Memory Archive
+
+Retired sediment.
+
+Use for: memories that used to be active or important but should no longer stay in the main memory files. Archive is not deletion; it is a public trace of what moved out of active use and why.
+
 ---
 
 ## Promotion Rule
@@ -68,6 +80,20 @@ Before promotion, ask:
 3. Is the item durable enough to help future reasoning?
 4. Could this create circular verification if reused carelessly?
 5. Does the memory belong in `BRAIN.md`, or should it remain only in the active X thread?
+
+---
+
+## Review / Consolidation Cycle
+
+When a new item appears:
+
+1. Put it in working memory or review queue first.
+2. Wait for a meaningful review window when possible, usually 24-48 hours or the next heartbeat/check-in.
+3. Decide whether it should be promoted, kept active, archived, marked as needing source, or proposed for deletion.
+4. If it is promoted, preserve the source label and why it moved.
+5. If it is archived or proposed for deletion, preserve the reason so future readers can audit the choice.
+
+Deletion should not be silent. If something is spam, duplicate, misleading, or no longer useful, use the review queue's `propose-delete` lane first.
 
 ---
 
