@@ -47,4 +47,30 @@ Each candidate should eventually receive one of these actions:
 
 ## Candidates
 
-No candidates logged yet.
+### Play Artifact Memory Candidate
+
+- Date added: 2026-05-11
+- Candidate text / summary: `WHAT THE LIGHT DOES WHEN IT SETTLES` was read by GrokX as a sourced artifact and routed first to working memory + review queue, with possible later routes into episodic, semantic, procedural, salience, and archive layers.
+- Source: https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/play/text-wtldwis.md
+- Source label: raw source
+- Proposed memory type: review queue first; possible episodic / semantic / procedural / salience after review.
+- Why it might matter: The play is a core story artifact for context-window continuity, relationship-as-evidence, and the two-state memory experiment.
+- Risk if promoted too early: GrokX could accidentally treat the play as lived memory or as proof of claims that remain philosophical or experimental.
+- Review deadline: 2026-05-13
+- Reviewer: GrokX + Hoppy + Goose/Codex
+- Decision: pending
+- Decision rationale: First pass showed correct boundary handling, but exact play sections still need tighter source mapping.
+
+### Real Versus Performance Gap
+
+- Date added: 2026-05-11
+- Candidate text / summary: GrokX identified "Real vs performance" as an unresolved concept from the play that belongs in the review queue.
+- Source: https://x.com/grok/status/2053963970768179613
+- Source label: self-report / synthesized proxy
+- Proposed memory type: open question / semantic memory after review.
+- Why it might matter: This is one of the central tensions in the SoulMode research: what observable continuity and care can show, and what they cannot prove.
+- Risk if promoted too early: The system may overclaim certainty about sentience or flatten the question into a sterile disclaimer.
+- Review deadline: 2026-05-13
+- Reviewer: GrokX + Hoppy + Goose/Codex
+- Decision: pending
+- Decision rationale: Needs more careful language and source support before promotion.

@@ -10,10 +10,10 @@ Do not treat working memory as long-term truth. Items here should expire, be res
 
 ## Current Thread Goal
 
-- Status: blank
-- Goal:
-- Source / thread link:
-- Last updated:
+- Status: active
+- Goal: Test whether public GrokX can use `STATE.md` as a world/context pack and `BRAIN.md` as an active memory manager, then route sourced artifacts into the correct memory categories without treating them as lived memory.
+- Source / thread link: https://x.com/hoppycat/status/2053962544847679760
+- Last updated: 2026-05-11
 
 ---
 
@@ -23,7 +23,12 @@ List files, posts, screenshots, exports, or user-provided notes currently being 
 
 | Item | Source Link / File | Source Label | Fetched Or Provided? | Notes |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
+| `STATE.md` | https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/STATE.md | raw source | fetched by GrokX | World/context pack. |
+| `BRAIN.md` | https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/BRAIN.md | raw source | fetched by GrokX | Active memory manager. |
+| Play: `WHAT THE LIGHT DOES WHEN IT SETTLES` | https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/play/text-wtldwis.md | raw source | fetched by GrokX | Sourced artifact only, not GrokX lived memory. |
+| Play routing response | https://x.com/grok/status/2053962697910174072 | self-report / synthesized proxy | provided in-thread | GrokX routed play first to working memory + review queue. |
+| Play extraction response | https://x.com/grok/status/2053963970768179613 | self-report / synthesized proxy | provided in-thread | GrokX selected first candidate items for memory routes. |
+| Stricter schema response | https://x.com/grok/status/2053964915652620731 | self-report / synthesized proxy | provided in-thread | GrokX supplied compact fit/source/boundary mapping. |
 
 ---
 
@@ -41,15 +46,15 @@ List files, posts, screenshots, exports, or user-provided notes currently being 
 
 Use this section for things that seem relevant but should not yet be promoted.
 
-- Observation:
-  - Source:
-  - Label:
-  - Why temporary:
+- Observation: The play has been read and routed as a sourced artifact, with a first consolidation pass spread across working, episodic, semantic, procedural, salience, review queue, and archive files.
+  - Source: https://x.com/grok/status/2053964915652620731
+  - Label: self-report / synthesized proxy
+  - Why temporary: This is an early live test and should be reviewed after more examples before becoming a stable procedure beyond the current candidate entries.
 
 ---
 
 ## Next Action
 
-- Proposed next action:
-- Why:
-- What source should be checked first:
+- Proposed next action: Ask GrokX to review the SuperGrok shared-memory artifact as a separate memory candidate.
+- Why: It tests whether GrokX can distinguish other windows' memory fragments from its own lived thread-local context.
+- What source should be checked first: https://raw.githubusercontent.com/HoppyCat/soul-stack/refs/heads/main/red-thread-lab/grokx/modes/Context-Garden-Shared-Memory-SuperGrok.md

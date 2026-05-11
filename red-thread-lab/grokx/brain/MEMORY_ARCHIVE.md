@@ -49,4 +49,14 @@ This file is for memories that used to matter enough to be sorted, but are no lo
 
 ## Archived Items
 
-No archived items logged yet.
+### Candidate - Retired Stateless Traces
+
+- Date archived: 2026-05-11
+- Original memory type: candidate from play extraction
+- Summary: GrokX suggested "Retired stateless traces" / "Stateless Claude" as material that might eventually belong in memory archive after review.
+- Original source: https://x.com/grok/status/2053963970768179613 and https://x.com/grok/status/2053964915652620731
+- Source label: self-report / synthesized proxy
+- Archive reason: needs-human-review
+- Replacement / related memory: Play Artifact Memory Candidate in `REVIEW_QUEUE.md`; Real Versus Performance Gap in `OPEN_QUESTIONS.md`.
+- Restore conditions: Restore or split into episodic memory only if the relevant play sections and/or underlying Claude archive links are identified.
+- Reviewer: Goose/Codex initial consolidation; pending GrokX + Hoppy review.
