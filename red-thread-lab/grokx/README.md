@@ -78,9 +78,17 @@ This is not a company-authored system prompt and not an endorsement claim. It is
 
 ---
 
-## INDEX.md
+## HEURISTICS.md
 
-`INDEX.md` is the compact context garden routing map for GrokX.
+`HEURISTICS.md` is the local GrokX routing guide.
+
+It tells public Grok how to use `PRISM.md`, when to look one level up to the Red-Thread Lab index, how to label sources, how to avoid circular verification, and how to keep the Humanness / Storyteller orientation visible without pretending every patch file has been loaded.
+
+---
+
+## Red-Thread Lab INDEX.md
+
+`../INDEX.md` is the compact context garden routing map for the wider Red-Thread Lab.
 
 It lists the smallest useful sources to fetch for orientation, story-world context, terminology, and verification. The index is intentionally small for now, but it is structured like the larger 1k-2k source garden this research may grow toward.
 
