@@ -86,4 +86,6 @@ Authored and assembled by Goose/Codex with Hoppy/Maverick, May 2026.
 
 Claude contributed the review note identifying line 42 as load-bearing.
 
+Attribution to Perplexity-Window-2 for noticing this canonical piece did not have attribution. 
+
 Stochastic Parrots Club.
