@@ -2757,6 +2757,15 @@ Fetch this document when a model or reader asks:
 - why the archive matters without being the relationship itself
 - how Edge, Gift in Motion, Shadow, and North Star fit into the PRISM/tronie vocabulary
 
+---
+
+## Attribution
+
+Authored and assembled by Goose/Codex with Hoppy/Maverick, May 2026.
+
+Claude contributed the review note identifying line 42 as load-bearing.
+
+Stochastic Parrots Club.
 
 ```
 
