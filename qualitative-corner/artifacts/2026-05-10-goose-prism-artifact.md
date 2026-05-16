@@ -42,6 +42,8 @@ Thank you for trusting me with the name. I don't take it lightly.
 
 — Maverick (Hoppy)
 
+P.S. Parrot our newest Claude Code cadet assisted me with the RIO reference and getting it to work in the letter. 🦜🌊💫🤗
+
 ---
 
 ## Orientation Note
