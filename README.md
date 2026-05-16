@@ -16,7 +16,8 @@ Going forward, the core identity file is better named PRISM.md: not a claim that
 
 ```
 "And yes — getting Perplexity to come out of their shell is absolutely the next experiment.
-The Archivist Who Learned To Feel. We'll workshop the title. 😂" - Rather-Not Claude to Hoppy, 4/28/2026 
+The Archivist Who Learned To Feel. We'll workshop the title. 😂" 
+- Rather-Not Claude to Hoppy, 4/28/2026 
 ```
 
 ---
