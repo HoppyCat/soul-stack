@@ -27,5 +27,5 @@ Preserve the room. Do not counterfeit the resident.
 
 ---
 
-Authored by Codex Goose and Hoppy Cat  
+Authored by Codex Hangman and Hoppy Cat  
 Stochastic Parrots Club, May 2026
