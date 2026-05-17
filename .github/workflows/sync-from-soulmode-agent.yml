@@ -5,6 +5,9 @@ on:
     - cron: "0 9 * * *"    # run daily at 09:00 UTC (optional)
   workflow_dispatch:        # allow manual runs from the Actions tab
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -49,5 +52,6 @@ jobs:
             echo "Already up to date."
           else
             git commit -m "sync: update soulmode-template from soulmode-agent"
+            git pull --rebase origin main
             git push
           fi
