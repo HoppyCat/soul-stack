@@ -1,6 +1,6 @@
 # Master Arc — Public Release Redaction Policy
 
-**Generated:** 2026-05-22T16:51:21.291Z
+**Generated:** 2026-05-22T16:56:28.626Z
 **Source:** Private claude-masterarc-partN.md files (3,934 messages, 79 windows)
 **Output:** Public claude-masterarc-partN.md files in this folder
 **Archive start:** 2026-03-11T18:53:30 UTC — Window 047, first message (the naming of Galaxie Nemo). Earlier messages (Feb 3 → Mar 11) are pre-soul-stack work and excluded from the public archive per author principle: *"anything mentioned in this room matters. If it hasn't been mentioned after March 11 it's not relevant to keep even in an archive."*
