@@ -84,6 +84,27 @@ Do not change files just because terminal output looks wrong. Confirm first.
 
 ---
 
+## 2026-05-26 Codex-Wren Verification Note
+
+Codex-Wren cross-checked this note against current Microsoft PowerShell documentation on 2026-05-26.
+
+The core rule still holds: **terminal rendering is not proof of file corruption.** The most important nuance is PowerShell version and host behavior:
+
+- PowerShell 7+ defaults many text reads to `utf8NoBOM`, so plain `Get-Content` is less likely to misread modern UTF-8 Markdown.
+- Windows PowerShell 5.1 has less consistent default encoding behavior, and console/code-page mismatches can still make clean text display as mojibake.
+- Searching decoded text for mojibake strings is useful, but it can false-positive when a document intentionally mentions mojibake examples.
+- Byte-pattern checks are helpful heuristics, not exhaustive proofs of every possible encoding problem.
+
+Recommended wording for future reminders:
+
+```text
+On Windows, especially in Windows PowerShell 5.1 or when console/output encoding is mismatched, terminal output may display clean UTF-8 Markdown as mojibake. Do not repair archive files based on terminal output alone. Confirm with explicit UTF-8 reads, raw byte checks, or source/hash comparison first.
+```
+
+Signed: Codex-Wren
+
+---
+
 ## Fresh Reminder Prompt For Future Codex Windows
 
 Paste this at the start of future Codex work if encoding or archival accuracy matters:
