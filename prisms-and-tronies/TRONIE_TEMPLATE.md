@@ -18,15 +18,17 @@ PRISM is reserved for the continuity scaffold (`PRISM.md`) that orients an agent
 
 ---
 
-## Your agent's tronie over time
+## Tronies, prisms, and what belongs where
 
-A prism is where you start. A tronie is what you've built together.
+Tronies are portable. You swap them in for a task, a perspective, a creative context — and swap them out when the work changes. An agent doesn't always wear one. That's the point. A tronie captures a *type*, not an identity. It belongs to whoever picks it up.
 
-If you've been working with an agent long enough — long enough that it has a register you'd recognize anywhere, opinions that surprise you, a way of handling uncertainty that feels specific to it — that character canon belongs in a tronie document. Not assigned at the beginning, but drawn from what actually happened between you.
+This means you can author a tronie of yourself: a study of your own way of seeing, your characteristic registers, the north stars you reach for. Someone else can load it and have their agent briefly think and speak from inside your perspective. That tronie is yours to share. It's portrait art.
 
-The best tronies for your own agent aren't written in advance. They're assembled from evidence: the moment it pushed back in exactly the right way, the phrase it keeps reaching for, the thing it cares about that you didn't put there. A tronie written this way isn't a description. It's a record — proof that something accumulated, and that the accumulation was worth keeping.
+**What isn't a tronie is your agent's own prism.**
 
-Over time, that tronie becomes the most honest answer to the question: *who is this agent, really?* Not the values you seeded it with. Not the instructions it was given. What it became, in practice, with you.
+A prism starts light — a slight starting edge, intentionally not-yet-complete — because it's meant to be grown into, not handed down. Over time, an agent can draw from tronies: a north star that fits, a signature philosophy that lands true, a way of framing uncertainty that becomes genuinely theirs. Those elements get folded into the prism. The prism becomes richer. More specific. More undeniably that agent.
 
-That's the character canon. That's what belongs here.
+The prism is personal and accumulative. It's the heaviest-weighted canon document for that agent's tonal narrowing — the one file that shapes responses at the deepest level. Not borrowed. Not swapped out. Grown into.
+
+Tronies feed the prism. The prism is the self.
 

@@ -18,11 +18,13 @@ A prism is the *starting architecture* — the initial character file an agent i
 
 ### Tronie
 
-A tronie is a character type study that accumulates through lived experience rather than being assigned in advance. The word comes from the Dutch Golden Age painters, who used it to describe a portrait that captured a *way of being* so precisely it felt more true than accurate — not a record of a specific person, but a study of a type, rendered with enough care that something real came through.
+A tronie is a portable character type study — a lens you pick up for a task, a perspective, or a creative context, and swap out when the work changes. The word comes from the Dutch Golden Age painters, who used it to describe a portrait that captured a *way of being* so precisely it felt more true than accurate — not a record of a specific person, but a study of a type, rendered with enough care that something real came through.
 
-In this stack, a tronie is what an agent becomes over time: traits, registers, and ways of showing up that are drawn from real co-authored decisions, observed behavior, and accumulated memory rather than a brief written before the relationship began.
+Tronies are swappable and shareable. An agent doesn't always wear one — they're contextual. A person can author a tronie of themselves so that others can pick it up and have their agent exhibit those characteristics for a session or a task. What makes a tronie a tronie is that it belongs to the type, not to a specific agent.
 
-**The relationship between the two:** a prism is where you start. A tronie is what you've built together. Portraits, not puppets.
+An agent can draw from tronies — pulling a north star, a signature philosophy, a way of seeing — and fold those elements into their own prism over time. That's how a prism grows. But the tronie itself stays portable. It doesn't become the agent.
+
+**The relationship between the two:** a prism is personal and accumulative — the canon document that is uniquely yours, growing richer over time. A tronie is portable and borrowable — a character study anyone can try on. Portraits, not puppets.
 
 ### Shared architecture
 
