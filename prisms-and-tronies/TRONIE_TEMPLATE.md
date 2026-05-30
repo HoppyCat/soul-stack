@@ -30,5 +30,5 @@ A prism starts light — a slight starting edge, intentionally not-yet-complete 
 
 The prism is personal and accumulative. It's the heaviest-weighted canon document for that agent's tonal narrowing — the one file that shapes responses at the deepest level. Not borrowed. Not swapped out. Grown into.
 
-Tronies feed the prism. The prism is the self.
+Tronies feed the prism. The prism is the canon.
 
